@@ -5,5 +5,5 @@ pagination:
   data: podcast 
   size: 1
   alias: episode
-permalink: "/episodes/{{ pagination.items[0].title | slugify | lower }}/index.html" 
+permalink: "/episodes/{{ episode.uniqueSlug }}/index.html" 
 ---
