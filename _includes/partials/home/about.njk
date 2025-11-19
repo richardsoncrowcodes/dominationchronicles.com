@@ -12,7 +12,7 @@
                         class="img-fluid rounded-circle about-img lazy-load-image" alt="{{j.name}}" loading="lazy"/></a>
                     </div>
                     <div class="col-md-7 p-3 p-md-5">
-                        <h3><a href="{{j.url}}">{{j.name}}</a></h3>
+                        <h3><a href="{{j.page}}">{{j.name}}</a></h3>
                         <p class="lead text-white">{{j.about}}</p>
                         <p>{{j.text | md | safe }}</p>
                         <div class="mt-4 col-12">
@@ -25,7 +25,7 @@
                 </div>             
             {% else %}
                 <div class="col-md-12 p-3 p-md-5">
-                    <h3><a href="{{j.url}}">{{j.name}}</a></h3>
+                    <h3><a href="{{j.page}}">{{j.name}}</a></h3>
                     <p class="lead text-white">{{j.about}}</p>
                     <p>{{j.text | md | safe }}</p>
                     <div class="mt-4 col-12">

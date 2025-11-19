@@ -12,6 +12,8 @@ list:
     url: /about/
   - nav: Episodes
     url: /episodes/
+  - nav: Hosts
+    url: /host/  
   - nav: Search
     url: /search
 
