@@ -10,8 +10,7 @@
 {{ content | safe }}
 </main>
 {% include "partials/footer.njk" %}
-<script src="/js/bs.js" defer></script>
-<script src="/js/script.js" defer></script>
+<script>{% include "public/js/bs.js" %}{% include "public/js/script.js" %}{% getBundle "js" %}</script>
 <link rel="stylesheet" 
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" 
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" 

@@ -43,7 +43,5 @@
 <meta property="og:locale" content="{{ metadata.locale }}" />
 <meta name="generator" content="{{ eleventy.generator }}" />
 <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-<style>{% include "css/index.css" %}</style>
-<style>{% include "css/style.css" %}</style>
-<link rel="stylesheet" href="{% getBundleFileUrl "css" %}">
+<style>{% include "css/index.css" %}{% include "css/style.css" %}{% getBundle "css" %}</style>
 <script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>

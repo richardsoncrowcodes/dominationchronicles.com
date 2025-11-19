@@ -13,6 +13,7 @@ import pluginFilters from "./_config/filters.js";
 import { DateTime } from "luxon";
 import embedYouTube from "eleventy-plugin-youtube-embed";
 import eleventyPluginYoutubeEmbed from 'eleventy-plugin-youtube-embed';
+import { minify } from 'html-minifier-terser';
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
 	// Removed manual authors.json loading. Eleventy will auto-load _data/authors.yaml and _data/authors.json as global data.
@@ -119,6 +120,20 @@ eleventyConfig.setNunjucksEnvironmentOptions({
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return new Date().toISOString();
+	});
+
+	// HTML minification transform
+	eleventyConfig.addTransform("htmlmin", async function (content, outputPath) {
+		if (outputPath && outputPath.endsWith(".html") && process.env.ELEVENTY_RUN_MODE === "build") {
+			return await minify(content, {
+				useShortDoctype: true,
+				removeComments: true,
+				collapseWhitespace: true,
+				minifyCSS: true,
+				minifyJS: true,
+			});
+		}
+		return content;
 	});
 }
 
