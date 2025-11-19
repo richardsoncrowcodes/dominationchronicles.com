@@ -59,7 +59,7 @@ export default async function() {
                 title: item.title,
                 originalUrl: item.link,
                 image: episodeImageUrl,
-                pubDate: item.pubDate,
+                publishDate: item.publishDate,
                 slug: baseSlug,
                 guid: item.guid || item.id || item.link // keep potential unique identifiers
             };

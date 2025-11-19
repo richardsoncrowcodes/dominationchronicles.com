@@ -50,7 +50,7 @@ permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
                              loading="lazy"
                         >
                         <div class="card-body">
-                            <small class="text-info">{{ episode.pubDate }}</small> 
+                            <small class="text-info">{{ episode.publishDate }}</small> 
                             <h2 class="h5 mt-2 mb-2">{{ episode.title }}</h2>
                             <p class="card-text small text-secondary">
                                 {{ episode.description | striptags | truncate(150) }}

@@ -5,7 +5,7 @@ description: Domination Chronicles Podcast Episodes
 pagination:
   data: collections.episodes
   size: 1
-  reverse: true
+  #reverse: true
 permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1
   }}/{% endif %}index.html
 ---

@@ -7,7 +7,7 @@ layout: base.njk
             <div class="col-lg-8">
                 <h1 class="display-5 fw-bold mb-2">{{ episode.title }}</h1>
                     {% if episode.description %}<h3>{{ episode.description | safe | md }}</h3>{% endif %}
-    <p class="text-secondary small">{{ episode.pubDate  }}</p>
+    <p class="text-secondary small">{{ episode.publishDate  }}</p>
 {% if episode.video %}
     <video controls class="w-100 mb-4 rounded shadow-md" poster="{{ episode.image }}">
         <source src="{{ episode.video }}" type="video/mp4"> 
