@@ -1,6 +1,8 @@
 # dominationchronicles.com
 
-A podcast website with 11ty develope by Adam Dj Brett
+A podcast website with 11ty developed by [Adam DJ Brett](https://github.com/adamdjbrett)
+Hosted by [xmit.co](https://xmit.co)
+![xmit logo](/xmit.co.png)
 
 ### HELP & PROJECT
 
