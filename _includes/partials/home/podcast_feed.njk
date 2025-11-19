@@ -4,7 +4,7 @@
 
     <div id="podcast-feed-container" class="instagram-grid"> 
         {%- if podcast and podcast.length > 0 -%}
-            {%- for episode in podcast -%}
+            {%- for episode in podcast | reverse -%}
             <div class="card bg-dark-secondary h-100 border-0 shadow-sm podcast-feed-item">
                 <a href="{{ episode.url }}" title="{{ episode.title }}">
                     <picture>

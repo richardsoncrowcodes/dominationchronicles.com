@@ -5,7 +5,7 @@ description: Domination Chronicles Podcast Episodes
 pagination:
   data: collections.episodes
   size: 1
-  #reverse: true
+  reverse: true
 permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1
   }}/{% endif %}index.html
 ---
@@ -15,8 +15,8 @@ permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 <p class="lead text-secondary">{{description}}</p>
 </header>
 <section id="episode-list" class="row g-4">
-    {% set sortedEpisodes = collections.episodes | sortEpisodesByPublishDate %}
-    {% for e in sortedEpisodes  %}<div class="col-lg-4 col-md-6 p-1">
+    {% set sortedEpisodes = collections.episodes | reverse %}
+    {% for e in sortedEpisodes %}<div class="col-lg-4 col-md-6 p-1">
                     <div class="card bg-dark-secondary h-100 border-0 shadow-sm">
                         {% if e.data.image %}<img src="{{e.data.image}}" data-src="{{e.data.image}}" 
                         class="card-img-top lazy-load-image"
