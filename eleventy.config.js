@@ -30,6 +30,7 @@ eleventyConfig.addPlugin(eleventyPluginYoutubeEmbed);
 	eleventyConfig
 		.addPassthroughCopy({
 			"./public/": "/",
+			"./public/img/favicon/favicon.ico": "/favicon.ico"
 		})
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
 		.addPassthroughCopy("./public/img/favicons")
