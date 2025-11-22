@@ -32,6 +32,8 @@ eleventyConfig.addPlugin(eleventyPluginYoutubeEmbed);
 			"./public/": "/",
 			"./public/img/favicon/favicon.ico": "/favicon.ico"
 		})
+		// Copy xmit.toml to output root for Xmit hosting
+		.addPassthroughCopy({ "./xmit.toml": "/xmit.toml" })
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
 		.addPassthroughCopy("./public/img/favicons")
 		.addPassthroughCopy("./public/pdfs")
