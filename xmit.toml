@@ -3,4 +3,8 @@ from = "/youtube/"
 to = "https://www.youtube.com/@DominationChronicles"
 permanent = true
 
+from = "bluesky"
+to = "https://bsky.app/profile/dominationchron.bsky.social"
+status = 301
+force = true
 
