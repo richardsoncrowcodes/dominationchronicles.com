@@ -2,3 +2,8 @@
 from = "^/youtube/?$"
 to = "https://www.youtube.com/@DominationChronicles"
 permanent = true
+
+[[redirects]]
+from = "^/podcast/?$"
+to = "https://redcircle.com/shows/dominationchronicles"
+permanent = true

@@ -8,6 +8,7 @@ permalink: /about/
 
 The podcast invites listeners to think with care about history, power, and law. Newcomb and d’Errico trace how ideas from papal bulls, colonial charters, and early court rulings still inform public policy and everyday language. They pair this analysis with stories of Indigenous knowledge, community strength, and ongoing work for freedom and repair. The goal is simple: to make the systems of domination visible so we can imagine something better.
 
+
 ## Connect with us on Social Media
 - [Steve Newcomb's Substack](https://stevennewcomb.substack.com)
 - [Peter d'Errico's Substack](https://peterderrico.substack.com)

@@ -14,11 +14,13 @@ list:
     url: /episodes/
   - nav: Hosts
     url: /host/  
+  - nav: Watch
+    url: https://www.youtube.com/@DominationChronicles
   - nav: Search
     url: /search
 
 # Navbar Button
 button: 
   show: true
-  text: Subscribe Now
-  url: https://www.youtube.com/@DominationChronicles
+  text: Listen Now
+  url: /listen/

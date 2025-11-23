@@ -32,6 +32,9 @@ menu2:
    - title: "Google"
      icon: "fab fa-google"
      url: "https://www.youtube.com/@DominationChronicles"
+   - title: "Redcircle"
+     icon: "fas fa-podcast"
+     url: "https://redcircle.com/dominationchronicles  
 
 # Footer area 4 Menu 3
 menu3: 
@@ -58,5 +61,8 @@ menu3:
    - title: "Watch our Films"
      icon: "fab fa-vimeo"
      url: "https://vimeo.com/ondemand/dominationcode"
+   - title: "Redcircle"
+     icon: "fas fa-podcast"
+     url: "https://redcircle.com/dominationchronicles    
 
 copyrights: " Domination Chronicles"
