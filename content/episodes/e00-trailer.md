@@ -2,7 +2,7 @@
 title: "E000: Trailer"
 description: "Welcome to The Dominiation Chronciles Podcast"
 image: /img/podcast/cover-art2.webp
-duration: "02:09"
+duration: "00:02:09"
 publishDate: 2025-11-17
 tags: 
  - e000
