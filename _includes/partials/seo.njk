@@ -1,32 +1,33 @@
-<title>{{title or metadata.title}}</title>
-<meta content="{{(title or metadata.title) | escape}}" name="title" />
-<meta content="{{(description or metadata.description) | escape}}" name="description" />
+<title>{{ title or metadata.title }}</title>
+<meta name="title" content="{{ (title or metadata.title) | escape }}" />
+<meta name="description" content="{{ (description or metadata.description) | escape }}" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
-<meta content="{{(title or metadata.title) | escape}}" property="og:title" />
-<meta content="{{(title or metadata.title) | escape}}" property="og:site_name" />
-<meta content="{{(description or metadata.description) | escape}}" property="og:description" />
-<meta content="{{image or metadata.image}}" property="og:image" />
+<meta property="og:title" content="{{ (title or metadata.title) | escape }}" />
+<meta property="og:site_name" content="{{ (title or metadata.title) | escape }}" />
+<meta property="og:description" content="{{ (description or metadata.description) | escape }}" />
+<meta property="og:image" content="{{ image or metadata.image }}" />
 <meta property="og:locale" content="{{ metadata.locale }}" />
-<meta content="{{image or metadata.image}}" name="facebook:image" />
-<meta content="{{(description or metadata.description) | escape}}" property="facebook:description" />
-<meta content="{{ metadata.metasocial.facebook }}" property="facebook:author" />
+<meta name="facebook:image" content="{{ image or metadata.image }}" />
+<meta property="facebook:description" content="{{ (description or metadata.description) | escape }}" />
+<meta property="facebook:author" content="{{ metadata.metasocial.facebook }}" />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
-<meta content="{{(title or metadata.title) | escape}}" name="twitter:title" />
-<meta content="{{(description or metadata.description) | escape}}" name="twitter:description" />
-<meta content="{{image or metadata.image}}" name="twitter:image" />
-<meta content="{{ metadata.metasocial.twitteruser }}" property="twitter:author" />
-<meta content="{{ metadata.metasocial.twitter }}" name="twitter:site" />
+<meta name="twitter:title" content="{{ (title or metadata.title) | escape }}" />
+<meta name="twitter:description" content="{{ (description or metadata.description) | escape }}" />
+<meta name="twitter:image" content="{{ image or metadata.image }}" />
+<meta property="twitter:author" content="{{ metadata.metasocial.twitteruser }}" />
+<meta name="twitter:site" content="{{ metadata.metasocial.twitter }}" />
 
 <!-- Dublin Core -->
-<meta content="{{(title or metadata.title) | escape}}" property="dc:title" />
+<meta property="dc:title" content="{{ (title or metadata.title) | escape }}" />
 <meta property="dc:creator" content="{{ metadata.author.name }}" />
-<link href="{{ metadata.favicon }}" rel="icon" type="image/x-icon" />
-<link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96" />
-<!-- Favicon and touch icons -->
+
+<!-- Icons -->
+<link rel="icon" type="image/x-icon" href="{{ metadata.favicon }}" />
+<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png" />
 <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.svg" />
 <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
 <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png" />
@@ -35,15 +36,16 @@
 
 <!-- Additional Meta -->
 <meta name="fediverse:creator" content="@dominationchronicles@mastodon.social" />
-<meta content="index, follow" name="robots" />
+<meta name="robots" content="index, follow" />
 <link rel="canonical" href="{{ metadata.url }}{{ page.url }}" />
 <meta name="language" content="{{ metadata.language }}" />
 <meta name="locale" content="{{ metadata.locale }}" />
-<!-- Feeds -->
 <meta name="generator" content="{{ eleventy.generator }}" />
-<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+<link rel="alternate" type="application/atom+xml" href="/feed/feed.xml" title="{{ metadata.title }}" />
+
+<!-- Styles and Anchors -->
 <style>{% include "css/index.css" %}{% include "css/style.css" %}{% getBundle "css" %}</style>
 <script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
 
-<!-- Schema.org JSON-LD Podcast Structured Data -->
+<!-- Schema.org JSON-LD -->
 {% include "partials/jsonld.njk" %}
