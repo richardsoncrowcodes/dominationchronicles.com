@@ -2,8 +2,8 @@
 title: "E000: Trailer"
 description: "In this inaugural episode of *Domination Chronicles*, Steven Newcomb (Shawnee/Lenape) and Peter d'Errico deepen a decades-long dialogue on how systems of domination have shaped U.S. federal Indian law, beginning with the 1823 Johnson v. *McIntosh* decision and its roots in 15th-century the Doctrine of Christian Discovery."
 image: /img/podcast/cover-art2.webp
-duration: "2:09"
-publishDate: 2025-11-23
+duration: "02:09"
+publishDate: 2025-11-24
 tags: 
  - e001
  - introduction
