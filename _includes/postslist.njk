@@ -1,8 +1,21 @@
-<ol reversed class="postlist" style="--postlist-index: {{ (postslistCounter or postslist.length) + 1 }}">
+<section class="row g-4">
 {%- for post in postslist | reverse %}
-	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
-		<a href="{{ post.url }}" class="postlist-link">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
-		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
-	</li>
+<div class="col-lg-4 col-md-6 p-1">
+<div class="card bg-dark-secondary h-100 border-0 shadow-sm">
+<a href="{{ post.url }}">
+<img src="{{post.data.image}}"
+class="card-img-top"
+width="100%" height="100%" 
+alt="{{post.data.title}}" 
+></a>
+ <div class="card-body d-flex flex-column">
+<h3><a href="{{ post.url }}" class="text-white">{{ post.data.title }}</a></h3>
+{% if post.date %}<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>{% endif %}
+<a href="{{post.url}}" class="btn btn-primary mt-auto stretched-link">
+{{widget.episode.button_episodes}}<i class="fas fa-circle-play ms-2"></i>
+</a>
+</div>
+</div>
+</div>
 {%- endfor %}
-</ol>
+</section>

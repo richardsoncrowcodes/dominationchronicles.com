@@ -48,7 +48,7 @@ layout: base.njk
                              loading="lazy"
                         ></a>
                         <div class="card-body text-white">
-                            <small class="text-info text-white">{{ episode.publishDate | readableDate }}</small>
+                            {% if episode.publishDate %}<small class="text-info text-white">{{ episode.publishDate | readableDate }}</small>{% endif %}
                             <h2 class="h5 mt-2 mb-2 text-white">{{ episode.title }}</h2>
                             <p class="card-text small text-secondary text-white">
                                  {{ episode.description | striptags | truncate(150) }}

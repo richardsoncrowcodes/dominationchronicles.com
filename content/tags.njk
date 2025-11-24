@@ -2,12 +2,13 @@
 title: Tag Index
 description: "find post faster and better."
 ---
-<section>
-<h1>{{title}}</h1>
+<section class="mt-5 p-3">
+<h1 class="mt-5">{{title}}</h1>
 <p>{{description}}</p>
-
+<div class="row justify-content-center p-3">
 {% for tag in collections | getKeys | filterTagList | sortAlphabetically %}
-	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
-	<p><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></p>
+{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+<div class="col-md-3 col-6 p-3"><a href="{{ tagUrl }}" class="btn btn-dark">{{ tag }}</a></div>
 {% endfor %}
+</div>
 </section>
