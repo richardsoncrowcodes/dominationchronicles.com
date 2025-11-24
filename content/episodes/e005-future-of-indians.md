@@ -2,7 +2,7 @@
 description: "E005: The Future of Indians"
 image: /img/podcast/cover-art2.webp
 duration: "35:49"
-publishDate: 2025-11-12
+publishDate: 2025-11-22
 videoId: 2qU9L_ecEZY
 tags: 
   - e005

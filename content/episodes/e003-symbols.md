@@ -3,7 +3,7 @@ title: "E003: Symbols, Enigmas, Curiosity"
 description: "We explore symbols — statues, seals, emblems, etc. — in the process of reality creation — especially a domination reality."
 image: /img/podcast/cover-art2.webp
 duration: "58:11"
-publishDate: 2025-10-12
+publishDate: 2025-11-20
 videoId: dZjKTnfOfM8
 tags: 
  - e003
