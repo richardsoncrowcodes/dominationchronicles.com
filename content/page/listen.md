@@ -1,7 +1,7 @@
 ---
 title: Listen now
 description: Listen and Subscribe to Domination Chronciles
-image: /img/banner-full.jpg
+image: /img/banner.webp
 permalink: /listen/
 ---
 <script async defer onload="redcircleShowIframe();" src="https://api.podcache.net/embedded-show-player/sh/2caa5839-9deb-419c-9347-2458812d9406?theme=light"></script>
