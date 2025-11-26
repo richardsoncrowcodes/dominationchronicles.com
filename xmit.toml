@@ -1,3 +1,5 @@
+404 = "404.html"
+
 [[redirects]]
 from = "^/youtube/?$"
 to = "https://www.youtube.com/@DominationChronicles"
@@ -7,5 +9,3 @@ permanent = true
 from = "^/podcast/?$"
 to = "https://redcircle.com/shows/dominationchronicles"
 permanent = true
-
-404 = "404.html"
