@@ -7,9 +7,9 @@
 <meta property="og:title" content="{{ (title or metadata.title) | escape }}" />
 <meta property="og:site_name" content="{{ (title or metadata.title) | escape }}" />
 <meta property="og:description" content="{{ (description or metadata.description) | escape }}" />
-<meta property="og:image" content="{{ metadata.opengraph or metadata.image or image }}" />
+<meta property="og:image" content="{{metadata.url}}{{ metadata.opengraph or metadata.image or image }}" />
 <meta property="og:locale" content="{{ metadata.locale }}" />
-<meta name="facebook:image" content="{{ metadata.opengraph or metadata.image or image }}" />
+<meta name="facebook:image" content="{{metadata.url}}{{ metadata.opengraph or metadata.image or image }}" />
 <meta property="facebook:description" content="{{ (description or metadata.description) | escape }}" />
 <meta property="facebook:author" content="{{ metadata.metasocial.facebook }}" />
 
@@ -17,7 +17,7 @@
 <meta property="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ (title or metadata.title) | escape }}" />
 <meta name="twitter:description" content="{{ (description or metadata.description) | escape }}" />
-<meta name="twitter:image" content="{{ metadata.opengraph or metadata.image or image }}" />
+<meta name="twitter:image" content="{{metadata.url}}{{ metadata.opengraph or metadata.image or image }}" />
 <meta property="twitter:author" content="{{ metadata.metasocial.twitteruser }}" />
 <meta name="twitter:site" content="{{ metadata.metasocial.twitter }}" />
 
