@@ -1,0 +1,18 @@
+{
+  // Custom 404 page
+{ "404": "404.html" },
+
+  // Redirect rules
+  redirects: [
+    {
+      from: "^/youtube/?$", 
+      to: "https://www.youtube.com/@DominationChronicles",
+      permanent: true,
+    },
+    {
+      from: "^/podcast/?$",
+      to: "https://redcircle.com/shows/dominationchronicles",
+      permanent: true,
+    },
+  ],
+}
