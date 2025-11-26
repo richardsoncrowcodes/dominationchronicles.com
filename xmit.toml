@@ -7,3 +7,5 @@ permanent = true
 from = "^/podcast/?$"
 to = "https://redcircle.com/shows/dominationchronicles"
 permanent = true
+
+404 = "404.html"
