@@ -1,0 +1,35 @@
+name: Generate Citations
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/episodes/**'
+      - 'scripts/generate-citations.cjs'
+      - 'package.json'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate citations
+        run: npm run citations
+
+      - name: Commit citation updates
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(citations): update generated RIS and CSL-JSON files'
+          file_pattern: public/citations/**

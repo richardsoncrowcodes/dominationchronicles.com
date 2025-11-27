@@ -7,7 +7,10 @@ Hosted on [xmit.co](https://xmit.co)
 
 A podcast website with 11ty developed by [Adam DJ Brett](https://github.com/adamdjbrett)
 
-### HELP & PROJECT
+## Create Citations
+```Run npm run citation```
+
+## HELP & PROJECT
 
 Need Help or have project ?? Contact Me.
 + https://adamdjbrett.com

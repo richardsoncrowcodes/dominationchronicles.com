@@ -1,0 +1,28 @@
+[
+  {
+    "id": "e00-trailer",
+    "type": "broadcast",
+    "title": "E000: Trailer",
+    "abstract": "Welcome to The Dominiation Chronciles Podcast",
+    "URL": "https://dominationchronicles.com/episodes/e00-trailer/",
+    "language": "en",
+    "source": "The Domination Chronicles Podcast",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          17
+        ]
+      ]
+    },
+    "keyword": [
+      "e000",
+      "introduction",
+      "law",
+      "discovery"
+    ],
+    "duration": "00:02:09",
+    "container": "/img/podcast/cover-art2.webp"
+  }
+]

@@ -4,7 +4,7 @@ title: Episodes
 description: Domination Chronicles Podcast Episodes
 pagination:
   data: collections.episodes
-  size: 4
+  size: 8
   reverse: true
 testdata:
   - item1
