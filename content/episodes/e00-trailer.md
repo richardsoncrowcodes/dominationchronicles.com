@@ -4,6 +4,10 @@ description: "Welcome to The Dominiation Chronciles Podcast"
 image: /img/podcast/cover-art2.webp
 duration: "00:02:09"
 publishDate: 2025-11-17
+cover: 
+ image: "/img/cover.webp"
+ url: "#"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/48b30034-1471-408f-9f5c-b0b91541f124?"
 tags: 
  - e000
  - introduction
@@ -11,24 +15,6 @@ tags:
  - discovery
 ---
 ## Listen Now
-<script async defer onload="redcircleIframe();" src="https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/48b30034-1471-408f-9f5c-b0b91541f124"></script>
-    <div class="redcirclePlayer-48b30034-1471-408f-9f5c-b0b91541f124"></div>
-    <style>
-    .redcircle-link:link {
-        color: #ea404d;
-        text-decoration: none;
-    }
-    .redcircle-link:hover {
-        color: #ea404d;
-    }
-    .redcircle-link:active {
-        color: #ea404d;
-    }
-    .redcircle-link:visited {
-        color: #ea404d;
-    }
-</style>
-<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle/">RedCircle</a></p>
 
 ## Description
 

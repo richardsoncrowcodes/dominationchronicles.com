@@ -2,6 +2,7 @@
 title: "E001: Our Opening Conversation"
 description: "In this inaugural episode of *Domination Chronicles*, Steven Newcomb (Shawnee/Lenape) and Peter d'Errico deepen a decades-long dialogue on how systems of domination have shaped U.S. federal Indian law, beginning with the 1823 Johnson v. *McIntosh* decision and its roots in 15th-century the Doctrine of Christian Discovery."
 image: /img/podcast/cover-art2.webp
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ff4c72f9-58a7-431e-9ff7-5784dea4608b?"
 duration: "53:28"
 publishDate: 2025-11-18
 videoId: k7QIG0YSq20
@@ -11,24 +12,6 @@ tags:
  - law
  - discovery
 ---
-<script async defer onload="redcircleIframe();" src="https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ff4c72f9-58a7-431e-9ff7-5784dea4608b"></script>
-    <div class="redcirclePlayer-ff4c72f9-58a7-431e-9ff7-5784dea4608b"></div>
-    <style>
-    .redcircle-link:link {
-        color: #ea404d;
-        text-decoration: none;
-    }
-    .redcircle-link:hover {
-        color: #ea404d;
-    }
-    .redcircle-link:active {
-        color: #ea404d;
-    }
-    .redcircle-link:visited {
-        color: #ea404d;
-    }
-</style>
-<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle/">RedCircle</a></p>
 
 ## Description
 In this inaugural episode of *Domination Chronicles*, [Steven Newcomb](/host/steven-t-newcomb/) (Shawnee/Lenape) and [Peter d'Errico](/peter-derrico/) deepen a decades-long dialogue on how systems of domination have shaped U.S. federal Indian law, beginning with the 1823 Johnson v. *McIntosh* decision and its roots in 15th-century "Christian Discovery" doctrines. Their conversation weaves together the story behind *Oyate Woyaka*---a new PBS film on Lakota language history and revitalization---and a broader critique of how race, gender, language, and worldview mask or perpetuate domination across human societies and the natural world.

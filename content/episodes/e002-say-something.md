@@ -3,6 +3,7 @@ title: "E002: Say Something, See Something"
 description: "Steve Newcomb and Peter d’Errico dig into Halverson v. Burgum, the August 21, 2025, Ninth Circuit dismissal of Jack Halverson’s (Crow Nation) case against the Bureau of Indian Affairs."
 image: /img/podcast/cover-art2.webp
 duration: "1:04:32"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ae2fcb84-34b2-4712-8b3f-d54b43220afa?"
 publishDate: 2025-11-19
 videoId: UfBY3EcsiTA
 tags: 
@@ -10,24 +11,6 @@ tags:
  - law
  - lingustics
 ---
-<script async defer onload="redcircleIframe();" src="https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ae2fcb84-34b2-4712-8b3f-d54b43220afa"></script>
-    <div class="redcirclePlayer-ae2fcb84-34b2-4712-8b3f-d54b43220afa"></div>
-    <style>
-    .redcircle-link:link {
-        color: #ea404d;
-        text-decoration: none;
-    }
-    .redcircle-link:hover {
-        color: #ea404d;
-    }
-    .redcircle-link:active {
-        color: #ea404d;
-    }
-    .redcircle-link:visited {
-        color: #ea404d;
-    }
-</style>
-<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle/">RedCircle</a></p>
 
 ## Description
 Steve Newcomb and Peter d’Errico dig into [*Halverson v. Burgum*](https://cdn.ca9.uscourts.gov/datastore/opinions/2025/08/21/23-3864.pdf), the August 21, 2025, Ninth Circuit dismissal of Jack Halverson’s (Crow Nation) case against the Bureau of Indian Affairs.

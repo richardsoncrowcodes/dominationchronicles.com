@@ -36,6 +36,12 @@ Need Help or have project ?? Contact Me.
 
 ### Change Log
 
+01 Dec 2025
++ Add cover image if not use videoId
++ Add Redcricle Simple Iframe Embed
++ Add Redcricle Embed
+
+
 14 Nov 2025
 + Improve for lighthouse
 + Fontawesome optimazation

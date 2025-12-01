@@ -1,0 +1,41 @@
+{% if redcircle.show %}{% set redcircle_embed %}
+    <script async defer onload="redcircleIframe();" src="{{ redcircle.url }}"></script>
+    <div class="redcirclePlayer-{{ redcircle.id }} rounded-3"></div>
+{% endset %}
+{{ redcircle_embed | safe }}
+    <style>
+    .redcircle-link:link {
+        color: #ea404d;
+        text-decoration: none;
+    }
+    .redcircle-link:hover {
+        color: #ea404d;
+    }
+    .redcircle-link:active {
+        color: #ea404d;
+    }
+    .redcircle-link:visited {
+        color: #ea404d;
+    }
+</style>
+<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle">RedCircle</a></p>
+{% endif %}
+{% if redcircle_embed %}
+<iframe class="rounded-3" height="170" scrolling="no" width="100%" src="{{redcircle_embed}}"></iframe>
+ <style>
+    .redcircle-link:link {
+        color: #ea404d;
+        text-decoration: none;
+    }
+    .redcircle-link:hover {
+        color: #ea404d;
+    }
+    .redcircle-link:active {
+        color: #ea404d;
+    }
+    .redcircle-link:visited {
+        color: #ea404d;
+    }
+</style>
+<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle">RedCircle</a></p>
+{% endif %}

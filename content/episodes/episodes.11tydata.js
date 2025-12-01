@@ -3,4 +3,5 @@ export default {
 		"episodes"
 	],
 	"layout": "episode-detail.njk",
+	"layoutEngine": "njk"
 };

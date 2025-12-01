@@ -4,30 +4,13 @@ description: "A concurring opinion in FLYING T RANCH v. STILLAGUAMISH TRIBE, Oct
 image: /img/podcast/cover-art2.webp
 duration: "54:15"
 publishDate: 2025-11-21
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/f5033055-bee4-485b-ae11-6dbd84788acb?"
 videoId: KbHNiK7Nrpc
 tags: 
  - e004
  - law
  - lingustics
 ---
-<script async defer onload="redcircleIframe();" src="https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/f5033055-bee4-485b-ae11-6dbd84788acb"></script>
-    <div class="redcirclePlayer-f5033055-bee4-485b-ae11-6dbd84788acb"></div>
-    <style>
-    .redcircle-link:link {
-        color: #ea404d;
-        text-decoration: none;
-    }
-    .redcircle-link:hover {
-        color: #ea404d;
-    }
-    .redcircle-link:active {
-        color: #ea404d;
-    }
-    .redcircle-link:visited {
-        color: #ea404d;
-    }
-</style>
-<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle/">RedCircle</a></p>
 
 ## Description
 

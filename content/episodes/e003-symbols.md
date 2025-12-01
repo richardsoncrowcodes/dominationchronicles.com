@@ -3,6 +3,7 @@ title: "E003: Symbols, Enigmas, Curiosity"
 description: "We explore symbols — statues, seals, emblems, etc. — in the process of reality creation — especially a domination reality."
 image: /img/podcast/cover-art2.webp
 duration: "58:11"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/9d5f99f9-fb79-4f69-b29c-beb692168dc1?"
 publishDate: 2025-11-20
 videoId: dZjKTnfOfM8
 tags: 
@@ -12,24 +13,7 @@ tags:
  - symbols
  - status
 ---
-<script async defer onload="redcircleIframe();" src="https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/9d5f99f9-fb79-4f69-b29c-beb692168dc1"></script>
-    <div class="redcirclePlayer-9d5f99f9-fb79-4f69-b29c-beb692168dc1"></div>
-    <style>
-    .redcircle-link:link {
-        color: #ea404d;
-        text-decoration: none;
-    }
-    .redcircle-link:hover {
-        color: #ea404d;
-    }
-    .redcircle-link:active {
-        color: #ea404d;
-    }
-    .redcircle-link:visited {
-        color: #ea404d;
-    }
-</style>
-<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle/">RedCircle</a></p>
+
 ## Description
 
 In this episode, Steve Newcomb and Peter d'Errico unpack the hidden language of symbols—statues, seals, emblems, and monuments—revealing how these artifacts don't just reflect history but actively construct and maintain systems of domination. They examine how symbols emerge from shared mental and behavioral frameworks, become gateways into understanding entire worldviews, and serve as evidence of past assumptions that continue to shape present realities. The conversation explores why controversies over removing or preserving "unacceptable" symbols matter so deeply: because destroying these markers erases critical evidence of the ideological foundations that still govern Indigenous-colonial relations today. Throughout, Steve and Peter trace these patterns back to Original Peoples' free and independent existence, asking what symbols reveal about the pretensions of empire and the enduring power of curiosity as a tool for seeing through domination's constructed narratives.
