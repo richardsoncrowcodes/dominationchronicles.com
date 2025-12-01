@@ -21,12 +21,12 @@ layout: base.njk
             Your browser not support audio
         </audio>
     {% endif %}
-      <img 
-            src="{{ episode.image }}" 
-            alt="Cover Episode: {{ episode.title }}" 
-            class="img-fluid rounded shadow mb-4"
-            style="max-width: 100%; height: auto;"
-        >
+    <img 
+        src="{{ episode.image }}" 
+        alt="Cover Episode: {{ episode.title | escape }}" 
+        class="img-fluid rounded shadow mb-4"
+        style="max-width: 100%; height: auto;"
+      >
                 {{ content | safe }}
                  <p>
                  URL: <a href="{{ episode.originalUrl }}" target="_blank" rel="noopener noreferrer">{{ episode.originalUrl }}</a>

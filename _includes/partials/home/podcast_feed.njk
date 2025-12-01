@@ -6,7 +6,7 @@
 {%- if podcast and podcast.length > 0 -%}
     {%- for episode in podcast | reverse -%}
     <div class="card bg-dark-secondary h-100 border-0 shadow-sm podcast-feed-item col-lg-10"><!-- changed col-md-4 to col-lg-10-->
-        <a href="{{ episode.redcircleLink }}" target="_blank" rel="noopener noreferrer" title="{{ episode.title }}">
+        <a href="{{ episode.redcircleLink }}" target="_blank" rel="noopener noreferrer" title="{{ episode.title | escape }}">
             <picture>
             <source type="image/webp" 
                     data-srcset="{{ episode.image }} 400w, {{ episode.image }} 800w"
@@ -16,7 +16,7 @@
                  data-srcset="{{ episode.image }} 400w, {{ episode.image }} 800w"
                  data-sizes="(max-width: 600px) 400px, 800px"
                  width="100%" height="100%"
-                 alt="Podcast Episode: {{ episode.title }}"
+                 alt="Podcast Episode: {{ episode.title | escape }}"
                  loading="lazy">
         </picture>
         <div class="card-body">
