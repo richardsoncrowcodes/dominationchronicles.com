@@ -5,14 +5,11 @@ description: "In this episode, Steve Newcomb and Peter d'Errico explore how quan
 image: /img/podcast/cover-art2.webp
 duration: "50:52"
 publishDate: 2025-12-01
-#videoId: 0FUFewGHLLg
-cover: 
- image: "/img/cover.webp"
- url: "https://www.youtube.com/watch?v=jGCWO0aRj0"
-redcircle: 
- show: false
- url: "https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ae7ea335-6e9c-4f4f-a1c3-82523e8cc98c"
- id: "ae7ea335-6e9c-4f4f-a1c3-82523e8cc98c"
+videoId: 0FUFewGHLLg
+#cover: 
+# image: "/img/cover.webp"
+# url: "https://www.youtube.com/watch?v=jGCWO0aRj0"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ae7ea335-6e9c-4f4f-a1c3-82523e8cc98c?"
 tags: 
   - e007
   - law
@@ -20,8 +17,10 @@ tags:
   - linguistics
 ---
 
+https://www.youtube.com/watch?v=jGCWO0aRj0c
 
 ## Description
+
 [Listen Now](https://redcircle.com/shows/2caa5839-9deb-419c-9347-2458812d9406/ep/ae7ea335-6e9c-4f4f-a1c3-82523e8cc98c)
 
 
