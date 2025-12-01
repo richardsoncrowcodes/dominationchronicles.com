@@ -2,70 +2,17 @@
 layout: base.njk
 ---
 {% if subscribe and subscribe | length %}
-<section class="subscribe-grid headerpadding" aria-label="Subscribe links">
-  <style>
-    .headerpadding {
-      padding-top: clamp(3rem, 8vw, 6rem);
-    }
-
-    .subscribe-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.5rem;
-      margin: 2rem 0;
-    }
-
-    .subscribe-card {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 1.25rem;
-      border: 1px solid var(--color-border, #e2e2e2);
-      border-radius: 0.75rem;
-      background: var(--color-surface, #fff);
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      text-align: center;
-    }
-
-    .subscribe-card:focus-within,
-    .subscribe-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
-    }
-
-    .subscribe-card img {
-      max-width: min(700px, 100%);
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-
-    .subscribe-card span {
-      margin-top: 0.5rem;
-      display: block;
-      font-size: 0.85rem;
-      color: var(--color-muted, #475569);
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .subscribe-card__link {
-      display: inline-flex;
-      flex-direction: column;
-      align-items: center;
-      text-decoration: none;
-      width: 100%;
-      color: inherit;
-    }
-  </style>
-
-  {% for service in subscribe %}
-    <div class="subscribe-card">
-      <a class="subscribe-card__link" href="{{ service.link }}" target="_blank" rel="noopener noreferrer" title="Listen on {{ service.name }}">
-        <img src="{{ service.icon }}" alt="Listen on {{ service.name }}" loading="lazy" decoding="async">
-        <span>{{ service.name }}</span>
-      </a>
-    </div>
-  {% endfor %}
+<section class="subscribe-section headerpadding" aria-label="Subscribe links">
+  <div class="subscribe-grid">
+    {% for service in subscribe %}
+      <article class="subscribe-card">
+        <a class="subscribe-card__link" href="{{ service.link }}" target="_blank"
+           rel="noopener noreferrer" title="Listen on {{ service.name }}">
+          <img src="{{ service.icon }}" alt="Listen on {{ service.name }}" loading="lazy" decoding="async">
+          <span>{{ service.name }}</span>
+        </a>
+      </article>
+    {% endfor %}
+  </div>
 </section>
 {% endif %}
