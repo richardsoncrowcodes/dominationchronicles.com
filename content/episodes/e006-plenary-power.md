@@ -9,7 +9,7 @@ cover:
  image: "/img/cover.webp"
  url: "https://www.youtube.com/watch?v=2qU9L_ecEZY"
 redcircle: 
- show: true
+ show: false
  url: "https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/b2020210-4fce-4add-9d32-23eb8e14e9c6"
  id: "b2020210-4fce-4add-9d32-23eb8e14e9c6"
 tags: 

@@ -15,7 +15,7 @@ redcircle:
  show: false
  url: "https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/0c96be9d-da48-4bd1-a9e2-1c3cb9625c04"
  id: "0c96be9d-da48-4bd1-a9e2-1c3cb9625c04"
-# SImply Redcircle just use iframe - switch redcrircle false first
+# Simplify Redcircle just use iframe - switch redcrircle false first
 redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/0c96be9d-da48-4bd1-a9e2-1c3cb9625c04?"
 tags: 
   - e005
