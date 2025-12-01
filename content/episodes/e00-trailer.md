@@ -28,7 +28,7 @@ tags:
         color: #ea404d;
     }
 </style>
-<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="https://redcircle.com/">RedCircle</a></p>
+<p style="margin-top:3px;margin-left:11px;font-family: sans-serif;font-size: 10px; color: gray;">Powered by <a class="redcircle-link" href="/redcircle/">RedCircle</a></p>
 
 ## Description
 

@@ -1,0 +1,60 @@
+- name: Amazon Music
+  icon: /img/podcast/badges/amazonmusic-badge.svg
+  link: https://music.amazon.com/podcasts/7667ac57-fe76-43af-8577-fb9176603c4f
+- name: Apple Podcasts
+  icon: /img/podcast/badges/applepodcasts-badge.svg
+  link: https://podcasts.apple.com/us/podcast/the-domination-chronicles-podcast/id1855325100
+- name: Castbox
+  icon: /img/podcast/badges/castbox-badge.svg
+  link: https://castbox.fm/channel/The-Domination-Chronicles-Podcast-id6883853
+- name: Castro
+  icon: /img/podcast/badges/castro-badge.svg
+  link: https://castro.fm/podcast/0bf2a529-e733-4c5f-8bff-686cee2cb601
+- name: Deezer
+  icon: /img/podcast/badges/deezer-badge.svg
+  link: https://deezer.com/show/1002414212
+- name: Gaana
+  icon: /img/podcast/badges/gaana-badge.svg
+  link: https://podcasts.gaana.com/feed/83214
+- name: Goodpods
+  icon: /img/podcast/badges/goodpods-badge.png
+  link: https://goodpods.com/podcasts/the-domination-chronicles-podcast-714264
+- name: iHeartRadio
+  icon: /img/podcast/badges/iheartradio-badge.svg
+  link: https://www.iheart.com/podcast/269-the-domination-chronicles-310067167/
+- name: ListenNotes
+  icon: /img/podcast/badges/listennotes-badge.png
+  link: https://www.listennotes.com/podcasts/the-domination-chronicles-podcast-rIFZfD-pi0B/
+- name: Overcast
+  icon: /img/podcast/badges/overcast-badge.svg
+  link: https://overcast.fm/itunes1855325100/the-domination-chronicles-podcast
+- name: Pandora
+  icon: /img/podcast/badges/pandora-badge.svg
+  link: https://www.pandora.com/podcast/the-domination-chronicles-podcast/PC:1001111587
+- name: Player FM
+  icon: /img/podcast/badges/playerfm-badge.svg
+  link: https://player.fm/series/the-domination-chronicles-podcast
+- name: Pocket Casts
+  icon: /img/podcast/badges/pocketcasts-badge.svg
+  link: https://pca.st/annwes28
+- name: Podchaser
+  icon: /img/podcast/badges/podchaser-badge.svg
+  link: https://www.podchaser.com/podcasts/the-domination-chronicles-podc-6291425
+- name: Podcast Addict
+  icon: /img/podcast/badges/podcastaddict-badge.svg
+  link: https://podcastaddict.com/podcast/the-domination-chronicles-podcast/6582499
+- name: Radio.net
+  icon: /img/podcast/badges/radio-badge.png
+  link: https://www.radio.net/podcast/the-domination-chronicles-podcast
+- name: RedCircle
+  icon: /img/podcast/badges/redcircle-badge.svg
+  link: https://redcircle.com/dominationchronicles
+- name: Spotify
+  icon: /img/podcast/badges/spotify-badge.svg
+  link: https://open.spotify.com/show/5nJ8uS50Kn7UWxzZdhosWs
+- name: Stitcher
+  icon: /img/podcast/badges/stitcher-badge.svg
+  link: https://www.stitcher.com/show/1111587
+- name: YouTube
+  icon: /img/podcast/badges/youtube-badge.svg
+  link: https://www.youtube.com/@DominationChronicles
