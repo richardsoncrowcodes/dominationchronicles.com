@@ -6,9 +6,9 @@ locale: en_US
 favicon: "/img/icon.svg"
 opengraph: /img/open-graph.webp
 # production URL
-#url: "https://dominationchronicles.com"
+url: "https://dominationchronicles.com"
 # dev mode URL
-url: "http://localhost:8080"
+#url: "http://localhost:8080"
 
 # Podcast RSS
 podcast_rss: 
