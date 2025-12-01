@@ -41,8 +41,7 @@ Need Help or have project ?? Contact Me.
 + Add Redcricle Simple Iframe Embed
 + Add Redcricle Embed
 
-
-14 Nov 2025
+F
 + Improve for lighthouse
 + Fontawesome optimazation
 + Update contrast
