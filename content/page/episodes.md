@@ -21,7 +21,7 @@ permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 </header>
 <section id="episode-list" class="row g-4">
     
-    {% for e in pagination.items | reverse %}<div class="col-lg-4 col-md-6 p-1">
+    {% for e in pagination.items %}<div class="col-lg-4 col-md-6 p-1">
                     <div class="card bg-dark-secondary h-100 border-0 shadow-sm">
                         {% if e.data.image %}<img src="{{e.data.image}}" data-src="{{e.data.image}}" 
                         class="card-img-top lazy-load-image"
@@ -44,6 +44,5 @@ permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
 {% if pagination.href.next %}<a class="btn btn-lg btn-primary text-white col-6" href="{{ pagination.href.next }}">Next </a>{% endif %}
 </div>
 </div>
-
 </section>
 </div>
