@@ -32,7 +32,7 @@
   icon: /img/podcast/badges/pandora-badge.svg
   link: https://www.pandora.com/podcast/the-domination-chronicles-podcast/PC:1001111587
 - name: Player FM
-  icon: /img/podcast/badges/playerfm-badge.svg
+  icon: /img/podcast/badges/player-badge.png
   link: https://player.fm/series/the-domination-chronicles-podcast
 - name: Pocket Casts
   icon: /img/podcast/badges/pocketcasts-badge.svg
@@ -47,7 +47,7 @@
   icon: /img/podcast/badges/radio-badge.png
   link: https://www.radio.net/podcast/the-domination-chronicles-podcast
 - name: RedCircle
-  icon: /img/podcast/badges/redcircle-badge.svg
+  icon: /img/podcast/badges/redcircle-badge.png
   link: https://redcircle.com/dominationchronicles
 - name: Spotify
   icon: /img/podcast/badges/spotify-badge.svg

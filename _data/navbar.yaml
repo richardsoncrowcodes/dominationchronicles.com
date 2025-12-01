@@ -14,6 +14,8 @@ list:
     url: /episodes/
   - nav: Hosts
     url: /host/  
+  - nav: Subscribe
+    url: /subscribe/
   - nav: Watch
     url: https://www.youtube.com/@DominationChronicles
   - nav: Search
