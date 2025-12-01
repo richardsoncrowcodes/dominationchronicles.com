@@ -8,7 +8,7 @@ publishDate: 2025-12-01
 #videoId: 0FUFewGHLLg
 cover: 
  image: "/img/cover.webp"
- url: "https://www.youtube.com/watch?v=0FUFewGHLLg"
+ url: "https://www.youtube.com/watch?v=jGCWO0aRj0"
 redcircle: 
  show: true
  url: "https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ae7ea335-6e9c-4f4f-a1c3-82523e8cc98c"
