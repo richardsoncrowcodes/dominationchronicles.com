@@ -22,7 +22,8 @@ tags:
 
 ## Description
 
-Our conversation is sparked by a discussion of Quantum Information Panpsychism between physicist Federico Faggin and philosopher Hans Busstra [youtube](https://www.youtube.com/watch?v=0FUFewGHLLg&t=215s)
+Our conversation is sparked by a discussion of Quantum Information Panpsychism between physicist Federico Faggin and philosopher Hans Busstra [youtube](https://www.youtube.com/watch?v=0FUFewGHLLg).
+
 
 https://www.youtube.com/watch?v=0FUFewGHLLg
 
