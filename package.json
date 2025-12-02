@@ -43,13 +43,13 @@
 		"zod-validation-error": "^3.5.2"
 	},
 	"dependencies": {
+		"@11ty/eleventy-fetch": "^5.1.0",
 		"@zachleat/heading-anchors": "^1.0.3",
 		"eleventy-plugin-youtube-embed": "^1.13.0",
 		"js-yaml": "^4.1.0",
 		"lite-youtube-embed": "^0.3.4",
 		"markdown-it": "^14.1.0",
 		"markdown-it-anchor": "^9.2.0",
-		"node-fetch": "^3.3.2",
 		"pagefind": "^1.4.0",
 		"rss-parser": "^3.13.0",
 		"transliteration": "^2.3.5"

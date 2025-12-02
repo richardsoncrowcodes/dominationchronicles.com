@@ -1,20 +1,20 @@
-import fetch from 'node-fetch';
-import Parser from 'rss-parser';
-import fs from 'fs/promises';
-import path from 'path';
-import yaml from 'js-yaml';
+import EleventyFetch from "@11ty/eleventy-fetch";
+import Parser from "rss-parser";
+import fs from "fs/promises";
+import path from "path";
+import yaml from "js-yaml";
 
-const METADATA_PATH = path.join(process.cwd(), '_data', 'metadata.yaml');
+const METADATA_PATH = path.join(process.cwd(), "_data", "metadata.yaml");
 
 // Tentukan Show Slug secara eksplisit karena URL RSS menggunakan GUID
 // Show Slug ini berasal dari https://redcircle.com/shows/dominationchronicles
-const REDCIRCLE_SHOW_SLUG = 'dominationchronicles';
+const REDCIRCLE_SHOW_SLUG = "dominationchronicles";
 
 
-export default async function() {
+export default async function () {
 	let metadata = {};
 	try {
-		const metadataContent = await fs.readFile(METADATA_PATH, 'utf8');
+		const metadataContent = await fs.readFile(METADATA_PATH, "utf8");
 		metadata = yaml.load(metadataContent);
 	} catch (error) {
 		console.error("❌ ERROR: can't read metadata.yaml.");
@@ -32,24 +32,23 @@ export default async function() {
     const redcircleShowSlug = REDCIRCLE_SHOW_SLUG;
     
 	try {
+		const cacheDuration = process.env.ELEVENTY_ENV === "production" ? "12h" : "1h";
 		const parser = new Parser({
 			customFields: {
 				item: [
-					['itunes:image', 'episodeImage', {keepArray: true}],
-                    ['itunes:permalink', 'permalinkUrl'], 
-                    ['itunes:episodeUrl', 'episodePageUrl'], 
-                    ['content:encoded', 'episodeContent']
+					["itunes:image", "episodeImage", { keepArray: true }],
+					["itunes:permalink", "permalinkUrl"], 
+					["itunes:episodeUrl", "episodePageUrl"], 
+					["content:encoded", "episodeContent"]
 				]
 			}
 		});
 
-		const feedResponse = await fetch(REDCIRCLE_RSS_URL);	
-
-		if (!feedResponse.ok) {
-			throw new Error(`Gagal mengambil feed. HTTP Status: ${feedResponse.status}`);
-		}
-
-		const feedText = await feedResponse.text();
+		const feedText = await EleventyFetch(REDCIRCLE_RSS_URL, {
+			duration: cacheDuration,
+			type: "text",
+			encoding: "utf-8",
+		});
 		const feed = await parser.parseString(feedText);
 
 	// Build initial episode objects

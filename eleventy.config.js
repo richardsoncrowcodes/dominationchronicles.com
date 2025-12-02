@@ -15,16 +15,18 @@ import eleventyPluginYoutubeEmbed from "eleventy-plugin-youtube-embed";
 import { minify } from "html-minifier-terser";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
+	const isProduction = process.env.ELEVENTY_ENV === "production";
+	const isBuild = process.env.ELEVENTY_RUN_MODE === "build";
 	// Removed manual authors.json loading. Eleventy will auto-load _data/authors.yaml and _data/authors.json as global data.
 	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
-		if (data.draft && process.env.ELEVENTY_RUN_MODE === "build") {
+		if (data.draft && isBuild) {
 			return false;
 		}
 	});
-eleventyConfig.addPlugin(embedYouTube, {
-  lite: true,
-});
-eleventyConfig.addPlugin(eleventyPluginYoutubeEmbed);
+	eleventyConfig.addPlugin(embedYouTube, {
+		lite: true,
+	});
+	eleventyConfig.addPlugin(eleventyPluginYoutubeEmbed);
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
 	eleventyConfig
 		.addPassthroughCopy({
@@ -37,13 +39,17 @@ eleventyConfig.addPlugin(eleventyPluginYoutubeEmbed);
 		.addPassthroughCopy("./public/img/favicons")
 		.addPassthroughCopy("./public/pdfs")
 		.addPassthroughCopy("./public/citations");
-eleventyConfig.setNunjucksEnvironmentOptions({
-        trimBlocks: true,
-        lstripBlocks: true,
-        autoescape: false 
-    });
+	eleventyConfig.setNunjucksEnvironmentOptions({
+		trimBlocks: true,
+		lstripBlocks: true,
+		autoescape: false,
+	});
 	eleventyConfig.addWatchTarget("css/**/*.css");
 	eleventyConfig.addWatchTarget("content/**/*.{svg,webp,png,jpg,jpeg,gif}");
+	eleventyConfig.addWatchTarget("./content/");
+	eleventyConfig.setBrowserSyncConfig({
+		files: ["./public/**/*", "./css/**/*.css"],
+	});
 
 	eleventyConfig.addBundle("css", {
 		toFileDirectory: "dist",
@@ -68,23 +74,23 @@ eleventyConfig.setNunjucksEnvironmentOptions({
 	eleventyConfig.addFilter("md", function (content) {
 		return md.render(content);
 	});
-	eleventyConfig.addFilter("timeToSeconds", function(time) {
-        if (!time || typeof time !== 'string') return 0;
-        const parts = time.split(':').reverse();
-        let totalSeconds = (parseInt(parts[0]) || 0);
-        if (parts.length > 1) {
-            totalSeconds += (parseInt(parts[1]) || 0) * 60;
-        }
-        if (parts.length > 2) {
-            totalSeconds += (parseInt(parts[2]) || 0) * 3600;
-        }
-        return totalSeconds;
-    });
-    eleventyConfig.addFilter("truncate", function(text, length) {
-        if (!text) return '';
-        if (text.length <= length) return text;
-        return text.substring(0, length) + '...';
-    });
+	eleventyConfig.addFilter("timeToSeconds", function (time) {
+		if (!time || typeof time !== "string") return 0;
+		const parts = time.split(":").reverse();
+		let totalSeconds = parseInt(parts[0]) || 0;
+		if (parts.length > 1) {
+			totalSeconds += (parseInt(parts[1]) || 0) * 60;
+		}
+		if (parts.length > 2) {
+			totalSeconds += (parseInt(parts[2]) || 0) * 3600;
+		}
+		return totalSeconds;
+	});
+	eleventyConfig.addFilter("truncate", function (text, length) {
+		if (!text) return "";
+		if (text.length <= length) return text;
+		return text.substring(0, length) + "...";
+	});
 	eleventyConfig.addFilter("take", function(items, count) {
 		if (!Array.isArray(items)) {
 			return [];
@@ -94,7 +100,7 @@ eleventyConfig.setNunjucksEnvironmentOptions({
 		}
 		return items.slice(0, count);
 	});
-	eleventyConfig.addFilter("toFeedDate", function(value) {
+	eleventyConfig.addFilter("toFeedDate", function (value) {
 		const fallback = new Date();
 		if (!value) {
 			return fallback.toISOString();
@@ -106,9 +112,13 @@ eleventyConfig.setNunjucksEnvironmentOptions({
 		return date.toISOString();
 	});
 	eleventyConfig.on("eleventy.after", () => {
-		execSync(`npx pagefind --site _site --glob \"**/*.html\"`, {
-			encoding: "utf-8",
-		});
+		if (isBuild) {
+			execSync(`npx pagefind --site _site --glob "**/*.html"`, {
+				encoding: "utf-8",
+			});
+		} else {
+			console.log("Skipping Pagefind indexing outside of build mode.");
+		}
 	});
 	eleventyConfig.addPlugin(pluginFilters);
 
@@ -120,16 +130,16 @@ eleventyConfig.setNunjucksEnvironmentOptions({
 
 	// HTML minification transform
 	eleventyConfig.addTransform("htmlmin", async function (content, outputPath) {
-		if (outputPath && outputPath.endsWith(".html") && process.env.ELEVENTY_RUN_MODE === "build") {
-			return await minify(content, {
-				useShortDoctype: true,
-				removeComments: true,
-				collapseWhitespace: true,
-				minifyCSS: true,
-				minifyJS: true,
-			});
+		if (!isProduction || !outputPath || !outputPath.endsWith(".html")) {
+			return content;
 		}
-		return content;
+		return await minify(content, {
+			useShortDoctype: true,
+			removeComments: true,
+			collapseWhitespace: true,
+			minifyCSS: true,
+			minifyJS: true,
+		});
 	});
 }
 
