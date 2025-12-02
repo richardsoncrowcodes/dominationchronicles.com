@@ -3,7 +3,6 @@ import {
 	InputPathToUrlTransformPlugin,
 	HtmlBasePlugin,
 } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import yaml from "js-yaml";
@@ -12,8 +11,8 @@ import markdownIt from "markdown-it";
 import pluginFilters from "./_config/filters.js";
 import { DateTime } from "luxon";
 import embedYouTube from "eleventy-plugin-youtube-embed";
-import eleventyPluginYoutubeEmbed from 'eleventy-plugin-youtube-embed';
-import { minify } from 'html-minifier-terser';
+import eleventyPluginYoutubeEmbed from "eleventy-plugin-youtube-embed";
+import { minify } from "html-minifier-terser";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
 	// Removed manual authors.json loading. Eleventy will auto-load _data/authors.yaml and _data/authors.json as global data.
@@ -86,37 +85,31 @@ eleventyConfig.setNunjucksEnvironmentOptions({
         if (text.length <= length) return text;
         return text.substring(0, length) + '...';
     });
+	eleventyConfig.addFilter("take", function(items, count) {
+		if (!Array.isArray(items)) {
+			return [];
+		}
+		if (!count || count <= 0) {
+			return items;
+		}
+		return items.slice(0, count);
+	});
+	eleventyConfig.addFilter("toFeedDate", function(value) {
+		const fallback = new Date();
+		if (!value) {
+			return fallback.toISOString();
+		}
+		const date = value instanceof Date ? value : new Date(value);
+		if (Number.isNaN(date.valueOf())) {
+			return fallback.toISOString();
+		}
+		return date.toISOString();
+	});
 	eleventyConfig.on("eleventy.after", () => {
 		execSync(`npx pagefind --site _site --glob \"**/*.html\"`, {
 			encoding: "utf-8",
 		});
 	});
-    eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom",
-		outputPath: "/feed/feed.xml",
-		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 10,
-			},
-		},
-		collection: {
-			// Only include podcast episodes tagged with "episodes"
-			name: "episodes",
-			limit: 50,
-		},
-		metadata: {
-			language: "en",
-			title: "Domination Chronicles Podcast",
-			subtitle: "Because domination isn’t a metaphor—it’s a system.",
-			base: "https://dominationchronicles.com/",
-			author: {
-				name: "Domination Chronicles",
-			},
-		},
-	});
-
 	eleventyConfig.addPlugin(pluginFilters);
 
 	eleventyConfig.addPlugin(IdAttributePlugin, {});

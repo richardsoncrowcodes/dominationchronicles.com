@@ -1,0 +1,58 @@
+---
+permalink: /feed/feed.xml
+layout: false
+eleventyExcludeFromCollections: true
+---
+{% set siteUrl = metadata.url or metadata.base or "" %}
+{% set feedItems = (collections.episodes or []) | reverse | take(50) %}
+{% set selfUrl = siteUrl ~ "/feed/feed.xml" %}
+{% set authorName = (metadata.author and metadata.author.name) or metadata.title %}
+{% set authorEmail = metadata.author and metadata.author.email %}
+{% set siteSubtitle = metadata.description or metadata.subtitle or "" %}
+{% if feedItems | length %}
+	{% set latestItem = feedItems[0] %}
+	{% set latestDate = latestItem.data.publishDate or latestItem.date %}
+{% else %}
+	{% set latestDate = "" %}
+{% endif %}
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or "en" }}">
+	<title>{{ metadata.title | escape }}</title>
+	<subtitle>{{ siteSubtitle | escape }}</subtitle>
+	<link href="{{ selfUrl }}" rel="self" />
+	<link href="{{ siteUrl }}" />
+	<updated>{{ latestDate | toFeedDate }}</updated>
+	<id>{{ siteUrl }}/</id>
+	<author>
+		<name>{{ authorName | escape }}</name>
+		{% if authorEmail %}
+		<email>{{ authorEmail | escape }}</email>
+		{% endif %}
+	</author>
+	{% for post in feedItems %}
+		{% set postUrl = post.url | htmlBaseUrl(siteUrl) %}
+		{% set published = post.data.publishDate or post.date %}
+		{% set fallbackExcerpt = (post.templateContent or "") | striptags | trim | truncate(280) %}
+		{% set summary = post.data.description or fallbackExcerpt %}
+		{% set rawTags = post.data.tags or [] %}
+		{% if rawTags is string %}
+			{% set tagList = [rawTags] %}
+		{% else %}
+			{% set tagList = rawTags %}
+		{% endif %}
+	<entry>
+		<title>{{ post.data.title | escape }}</title>
+		<link href="{{ postUrl }}" />
+		<id>{{ postUrl }}</id>
+		<updated>{{ published | toFeedDate }}</updated>
+		<summary type="html">{{ summary | escape }}</summary>
+		{% if tagList and tagList | length %}
+			{% for tag in tagList %}
+				{% if tag %}
+		<category term="{{ tag | escape }}" label="{{ tag | escape }}" />
+				{% endif %}
+			{% endfor %}
+		{% endif %}
+	</entry>
+	{% endfor %}
+</feed>
