@@ -7,11 +7,9 @@ redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-93
 publishDate: 2025-11-20
 videoId: dZjKTnfOfM8
 tags: 
- - e003
  - law
  - lingustics
  - symbols
- - status
 ---
 
 ## Description

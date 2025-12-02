@@ -7,7 +7,6 @@ redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-93
 publishDate: 2025-11-19
 videoId: UfBY3EcsiTA
 tags: 
- - e002
  - law
  - lingustics
 ---

@@ -12,7 +12,6 @@ import pluginFilters from "./_config/filters.js";
 import { DateTime } from "luxon";
 import embedYouTube from "eleventy-plugin-youtube-embed";
 import eleventyPluginYoutubeEmbed from "eleventy-plugin-youtube-embed";
-import { minify } from "html-minifier-terser";
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
 	const isProduction = process.env.ELEVENTY_ENV === "production";
@@ -128,19 +127,6 @@ export default async function (eleventyConfig) {
 		return new Date().toISOString();
 	});
 
-	// HTML minification transform
-	eleventyConfig.addTransform("htmlmin", async function (content, outputPath) {
-		if (!isProduction || !outputPath || !outputPath.endsWith(".html")) {
-			return content;
-		}
-		return await minify(content, {
-			useShortDoctype: true,
-			removeComments: true,
-			collapseWhitespace: true,
-			minifyCSS: true,
-			minifyJS: true,
-		});
-	});
 }
 
 export const config = {

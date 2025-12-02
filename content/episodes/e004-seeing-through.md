@@ -7,7 +7,6 @@ publishDate: 2025-11-21
 redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/f5033055-bee4-485b-ae11-6dbd84788acb?"
 videoId: KbHNiK7Nrpc
 tags: 
- - e004
  - law
  - lingustics
 ---

@@ -9,7 +9,6 @@ cover:
  url: "#"
 redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/48b30034-1471-408f-9f5c-b0b91541f124?"
 tags: 
- - e000
  - introduction
  - law
  - discovery
