@@ -6,7 +6,7 @@
                 fetchpriority="high"/>
                 {% else %}{{navbar.title}}{% endif %}</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-               Menu <i class="fas fa-bars ms-1"></i>
+               Menu <i class="fa-solid fa-bars ms-1"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
@@ -15,7 +15,7 @@
                     </li>{% endfor %}
                     {% if navbar.button.show %}<li class="nav-item ms-lg-3">
                         <a class="btn btn-primary" href="{{navbar.button.url}}" role="button" 
-                        target="_blank" rel="noreferrer">{{navbar.button.text}}</a>
+                        target="_blank" rel="noreferrer">{{navbar.button.text}} <i class="{{navbar.button.icon}} 2xl"></i></a>
                     </li>{% endif %}
                 </ul>
             </div>

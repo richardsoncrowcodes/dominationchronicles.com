@@ -18,13 +18,13 @@ host:
       image: "/img/peter-derrico.webp"
       social: 
         - title: Peter on substack
-          icon: fas fa-rss
+          icon: fa-solid fa-rss
           url: https://peterderrico.substack.com/
         - title: Peter on Research Gate
-          icon: fab fa-researchgate
+          icon: fa-brands fa-researchgate
           url: https://www.researchgate.net/profile/Peter-D-Errico
         - title: Peter on Academia.edu
-          icon: fas fa-bookmark
+          icon: fa-solid fa-bookmark
           url: https://umass.academia.edu/PeterdErrico
     - name: "Steven T. Newcomb"
       about: "About Steven T. Newcomb"
@@ -34,13 +34,13 @@ host:
       image: "/img/steven.webp"
       social: 
         - title: Steven on facebook
-          icon: fab fa-facebook
+          icon: fa-brands fa-facebook
           url: https://facebook.com/stevennewcomb
         - title: Steven on X
-          icon: fab fa-x-twitter
+          icon: fa-brands fa-x-twitter
           url: https://x.com/dominationchron
         - title: Steven on Vimeo
-          icon: fab fa-vimeo
+          icon: fa-brands fa-vimeo
           url: https://vimeo.com/ondemand/dominationcode
 
 # episode widget

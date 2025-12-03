@@ -33,7 +33,7 @@ permalink: /episodes/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber 
                             <h3 class="card-title text-white">{{e.data.title}}</h3>
                             <p class="card-text text-secondary small">Duration: {{e.data.duration}}</p>
                             <a href="{{e.url}}" class="btn btn-outline-primary mt-auto stretched-link">
-                                {{widget.episode.button_episodes}}<i class="fas fa-circle-play ms-2"></i>
+                                {{widget.episode.button_episodes}}<i class="fa-solid fa-circle-play ms-2"></i>
                             </a>
                         </div>
                     </div>

@@ -43,6 +43,7 @@
 	},
 	"dependencies": {
 		"@11ty/eleventy-fetch": "^5.1.0",
+		"@11ty/font-awesome": "^1.0.1",
 		"@zachleat/heading-anchors": "^1.0.3",
 		"eleventy-plugin-youtube-embed": "^1.13.0",
 		"js-yaml": "^4.1.0",

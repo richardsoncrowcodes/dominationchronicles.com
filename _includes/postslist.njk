@@ -12,7 +12,7 @@ alt="{{post.data.title}}"
 <h3><a href="{{ post.url }}" class="text-white">{{ post.data.title }}</a></h3>
 {% if post.date %}<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>{% endif %}
 <a href="{{post.url}}" class="btn btn-primary mt-auto stretched-link">
-{{widget.episode.button_episodes}}<i class="fas fa-circle-play ms-2"></i>
+{{widget.episode.button_episodes}}<i class="fa-solid fa-circle-play ms-2"></i>
 </a>
 </div>
 </div>

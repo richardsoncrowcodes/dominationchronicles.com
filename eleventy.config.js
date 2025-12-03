@@ -5,6 +5,7 @@ import {
 } from "@11ty/eleventy";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
+import fontAwesomePlugin from "@11ty/font-awesome";
 import yaml from "js-yaml";
 import { execSync } from "child_process";
 import markdownIt from "markdown-it";
@@ -61,6 +62,15 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 },
+	});
+	// FontAwesome plugin
+	eleventyConfig.addPlugin(fontAwesomePlugin, {
+		transform: "i[class]",
+		shortcode: false,
+		failOnError: true,
+		defaultAttributes: {
+			class: "icon-svg",
+		},
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
