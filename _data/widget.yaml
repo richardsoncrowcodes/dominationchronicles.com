@@ -57,7 +57,7 @@ rss:
 
 # form widget and contact
 form: 
- formspree_id: ""
+ formspree_id: "https://formspree.io/f/mrbnlovg"
  title: Contact Form
  button: "Send Message"
  text: |
