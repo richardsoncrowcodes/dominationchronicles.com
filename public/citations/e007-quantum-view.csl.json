@@ -2,8 +2,8 @@
   {
     "id": "e007-quantum-view",
     "type": "broadcast",
-    "title": "E007: A Quantum View of \"Free Existence\" as Entangled Indeterminacy",
-    "abstract": "In this episode, Steve Newcomb and Peter d'Errico explore how quantum theory can help us rethink the meaning of free existence.",
+    "title": "|",
+    "abstract": "In this episode, Steve Newcomb and Peter d'Errico explore how quantum theory can help us rethink the meaning of free existence",
     "URL": "https://dominationchronicles.com/episodes/e007-quantum-view/",
     "language": "en",
     "source": "The Domination Chronicles Podcast",
@@ -17,7 +17,6 @@
       ]
     },
     "keyword": [
-      "e007",
       "law",
       "physics",
       "linguistics"
