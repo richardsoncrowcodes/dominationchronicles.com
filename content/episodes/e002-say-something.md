@@ -12,7 +12,7 @@ tags:
 ---
 
 ## Description
-Steve Newcomb and Peter d’Errico dig into [*Halverson v. Burgum*](https://cdn.ca9.uscourts.gov/datastore/opinions/2025/08/21/23-3864.pdf), the August 21, 2025, Ninth Circuit dismissal of Jack Halverson’s (Crow Nation) case against the Bureau of Indian Affairs.
+[Steve Newcomb](host/steven-t-newcomb) and [Peter d'Errico](/host/peter-d-erico/) dig into [*Halverson v. Burgum*](https://cdn.ca9.uscourts.gov/datastore/opinions/2025/08/21/23-3864.pdf), the August 21, 2025, Ninth Circuit dismissal of Jack Halverson’s (Crow Nation) case against the Bureau of Indian Affairs.
 
 The court ruled that Halverson could not sue the BIA because the US has “sovereign immunity”. It cited the 1823 Johnson v. McIntosh “Christian discovery” decision as the first item in its reasoning! 
 

@@ -4,6 +4,7 @@ const path = require('path');
 
 const EPISODES_DIR = path.join(__dirname, '..', 'content', 'episodes');
 const OUT_DIR = path.join(__dirname, '..', 'public', 'citations');
+const FORCE_REGEN = process.argv.includes('--force') || process.env.CITATIONS_FORCE === 'true';
 
 function ensureDir(p) {
   if (!fs.existsSync(p)) fs.mkdirSync(p, { recursive: true });
@@ -77,21 +78,32 @@ function toCSLJSON(meta, slug) {
   return JSON.stringify([obj], null, 2) + '\n';
 }
 
+function hasExistingCitation(slug) {
+  const risPath = path.join(OUT_DIR, `${slug}.ris`);
+  const cslPath = path.join(OUT_DIR, `${slug}.csl.json`);
+  return fs.existsSync(risPath) && fs.existsSync(cslPath);
+}
+
 function run() {
   ensureDir(OUT_DIR);
   const files = fs.readdirSync(EPISODES_DIR).filter(f => f.endsWith('.md'));
-  let count = 0;
+  let generated = 0;
+  let skipped = 0;
   files.forEach(file => {
     const slug = path.basename(file, '.md');
+    if (!FORCE_REGEN && hasExistingCitation(slug)) {
+      skipped++;
+      return;
+    }
     const md = fs.readFileSync(path.join(EPISODES_DIR, file), 'utf8');
     const meta = parseFrontMatter(md);
     const ris = toRIS(meta, slug);
     const csl = toCSLJSON(meta, slug);
     fs.writeFileSync(path.join(OUT_DIR, `${slug}.ris`), ris);
     fs.writeFileSync(path.join(OUT_DIR, `${slug}.csl.json`), csl);
-    count++;
+    generated++;
   });
-  console.log(`Generated citations for ${count} episode(s) in ${OUT_DIR}`);
+  console.log(`Citations: ${generated} generated, ${skipped} skipped${FORCE_REGEN ? ' (force mode)' : ''}. Output directory: ${OUT_DIR}`);
 }
 
 run();

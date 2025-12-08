@@ -25,7 +25,7 @@ Dramatic Dissent by Supreme Court Justices Gorsuch and Thomas Opens a Path to Te
 
 ### Episode 6: When Supreme Court Justices Question Plenary Power
 
-Episode 6 marks a turning point in the long debate over federal domination of Native Nations. Steven T. Newcomb and Peter d'Errico walk through a recent Supreme Court dissent from Justices Thomas and Gorsuch that challenges the very foundation of *plenary power*---the claim that Congress holds total authority over Native Peoples. This power has shaped U.S. Indian law since the nineteenth century and rests on old racial assumptions and the so-called Doctrine of Discovery.
+Episode 6 marks a turning point in the long debate over federal domination of Native Nations. [Steve Newcomb](host/steven-t-newcomb) and [Peter d'Errico](/host/peter-d-erico/) walk through a recent Supreme Court dissent from Justices Thomas and Gorsuch that challenges the very foundation of *plenary power*---the claim that Congress holds total authority over Native Peoples. This power has shaped U.S. Indian law since the nineteenth century and rests on old racial assumptions and the so-called Doctrine of Discovery.
 
 The conversation moves from the details of the domestic-violence case that triggered the dissent to the larger architecture of domination. The Court refused to hear the case, but the dissent calls for what it names "a day of reckoning." It questions the legal logic behind *Kagama*, the Major Crimes Act, and the trust doctrine itself. The episode shows how narrow legal disputes open up deeper questions about sovereignty, free existence, and the long reach of Christian imperial ideas embedded in U.S. law.
 

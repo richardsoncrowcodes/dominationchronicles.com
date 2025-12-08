@@ -6,8 +6,6 @@ on:
       - main
     paths:
       - 'content/episodes/**'
-      - 'scripts/generate-citations.cjs'
-      - 'package.json'
   workflow_dispatch:
 
 permissions:
@@ -22,21 +20,35 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Detect newly added episodes
+        id: changed
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            content/episodes/**/*.md
+
+      - name: No new episodes detected
+        if: steps.changed.outputs.added_files_count == '0'
+        run: echo "No new episode markdown files were added; skipping citation updates."
+
       - name: Setup Node.js
+        if: steps.changed.outputs.added_files_count != '0'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'npm'
 
       - name: Install dependencies
+        if: steps.changed.outputs.added_files_count != '0'
         run: npm ci --ignore-scripts --no-audit --no-fund
 
       - name: Generate citations
+        if: steps.changed.outputs.added_files_count != '0'
         run: npm run citations
 
       - name: Commit citation updates
         uses: stefanzweifel/git-auto-commit-action@v5
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && steps.changed.outputs.added_files_count != '0'
         with:
           commit_message: 'chore(citations): update generated RIS and CSL-JSON files'
           commit_author_name: GitHub Actions

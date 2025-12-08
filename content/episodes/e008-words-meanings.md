@@ -16,7 +16,7 @@ tags:
 ---
 ## **WORDS & MEANINGS - OUR CONVERSATIONS**
 
-Today, Steve and Peter talk about their conversations: What motivates them? What guides us? Toward what end do we converse? From what vantage point? With what perspectives? And in particular, how and why do we focus on "domination"?
+Today, [Steve Newcomb](host/steven-t-newcomb) and [Peter d'Errico](/host/peter-d-erico/) talk about their conversations: What motivates them? What guides us? Toward what end do we converse? From what vantage point? With what perspectives? And in particular, how and why do we focus on "domination"?
 
 Steve opens the discussion by recounting his own journey from an early encounter with *Johnson v. McIntosh* and the doctrine of "Christian discovery". He explains how his reading of many authors and treatises brought him to understand the *Johnson* decision as "a claim of a right of domination"---a claim he refused to accept as having any legitimacy.
 
