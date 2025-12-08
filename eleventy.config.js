@@ -10,6 +10,10 @@ import yaml from "js-yaml";
 import { execSync } from "child_process";
 import markdownIt from "markdown-it";
 import pluginFilters from "./_config/filters.js";
+import {
+	registerHtmlMinifier,
+	registerInlineCssShortcode,
+} from "./_config/minify.js";
 import { DateTime } from "luxon";
 import embedYouTube from "eleventy-plugin-youtube-embed";
 import eleventyPluginYoutubeEmbed from "eleventy-plugin-youtube-embed";
@@ -130,6 +134,8 @@ export default async function (eleventyConfig) {
 		}
 	});
 	eleventyConfig.addPlugin(pluginFilters);
+	registerInlineCssShortcode(eleventyConfig);
+	registerHtmlMinifier(eleventyConfig, isBuild);
 
 	eleventyConfig.addPlugin(IdAttributePlugin, {});
 

@@ -44,7 +44,11 @@
 <link rel="alternate" type="application/atom+xml" href="/feed/feed.xml" title="{{ metadata.title }}" />
 
 <!-- Styles and Anchors -->
-<style>{% include "css/index.css" %}{% include "css/style.css" %}{% getBundle "css" %}</style>
+<style>
+{% inlineCSS "css/index.css" %}
+{% inlineCSS "css/style.css" %}
+{% getBundle "css" %}
+</style>
 <script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
 
 <!-- Schema.org JSON-LD -->

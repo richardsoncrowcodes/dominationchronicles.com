@@ -3,6 +3,7 @@ import Parser from "rss-parser";
 import fs from "fs/promises";
 import path from "path";
 import yaml from "js-yaml";
+import getLocalEpisodes from "./localEpisodes.js";
 
 const METADATA_PATH = path.join(process.cwd(), "_data", "metadata.yaml");
 
@@ -106,8 +107,20 @@ export default async function () {
             }
 		}
 
-		console.log(`✅ SUCCESS: Load ${episodes.length} episode from RedCircle. as 'podcast'.`);
-		return episodes;
+		let localSlugs = new Set();
+		try {
+			const localList = await getLocalEpisodes();
+			if (Array.isArray(localList)) {
+				localSlugs = new Set(localList);
+			}
+		} catch (localError) {
+			console.warn("[podcast] Unable to load local episode slugs:", localError.message);
+		}
+
+		const filteredEpisodes = episodes.filter((episode) => !localSlugs.has(episode.uniqueSlug));
+		const skipped = episodes.length - filteredEpisodes.length;
+		console.log(`✅ SUCCESS: Load ${filteredEpisodes.length} remote episode(s) from RedCircle as 'podcast'.${skipped ? ` Skipped ${skipped} local episode(s).` : ""}`);
+		return filteredEpisodes;
 
 	} catch (error) {
 		console.error("❌ FATAL ERROR: Parsing/Fetch RSS RedCircle failed:", error.message);

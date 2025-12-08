@@ -8,7 +8,7 @@ videoId: pa8RWhhG3aQ
 #cover: 
 # image: "/img/cover.webp"
 # url: "https://www.youtube.com/watch?v=jGCWO0aRj0"
-redcircle_embed: "https://api.podcache.net/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/13ca90ba-251e-4133-8556-26843fdb8c15"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/13ca90ba-251e-4133-8556-26843fdb8c15"
 tags: 
   - law
   - language

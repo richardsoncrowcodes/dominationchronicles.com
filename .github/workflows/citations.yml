@@ -10,26 +10,35 @@ on:
       - 'package.json'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci --ignore-scripts --no-audit --no-fund
 
       - name: Generate citations
         run: npm run citations
 
       - name: Commit citation updates
         uses: stefanzweifel/git-auto-commit-action@v5
+        if: github.ref == 'refs/heads/main'
         with:
           commit_message: 'chore(citations): update generated RIS and CSL-JSON files'
-          file_pattern: public/citations/**
+          commit_author_name: GitHub Actions
+          commit_author_email: actions@github.com
+          file_pattern: 'public/citations/**'
