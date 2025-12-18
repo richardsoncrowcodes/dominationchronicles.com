@@ -1,11 +1,7 @@
-import {
-	IdAttributePlugin,
-	InputPathToUrlTransformPlugin,
-	HtmlBasePlugin,
-} from "@11ty/eleventy";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
 import fontAwesomePlugin from "@11ty/font-awesome";
+import { IdAttributePlugin } from "@11ty/eleventy";
 import yaml from "js-yaml";
 import { execSync } from "child_process";
 import markdownIt from "markdown-it";
@@ -60,15 +56,6 @@ export default async function (eleventyConfig) {
 		files: ["./public/**/*", "./css/**/*.css"],
 	});
 
-	eleventyConfig.addBundle("css", {
-		toFileDirectory: "dist",
-		bundleHtmlContentFromSelector: "style",
-	});
-	eleventyConfig.addBundle("js", {
-		toFileDirectory: "dist",
-		bundleHtmlContentFromSelector: 'script[type="module"]',
-	});
-
 	eleventyConfig.addPlugin(pluginSyntaxHighlight, {
 		preAttributes: { tabindex: 0 },
 	});
@@ -82,8 +69,7 @@ export default async function (eleventyConfig) {
 		},
 	});
 	eleventyConfig.addPlugin(pluginNavigation);
-	eleventyConfig.addPlugin(HtmlBasePlugin);
-	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+	eleventyConfig.addPlugin(IdAttributePlugin);
 	const md = new markdownIt({
 		html: true,
 		breaks: true,
@@ -142,7 +128,6 @@ export default async function (eleventyConfig) {
 	registerInlineCssShortcode(eleventyConfig);
 	registerHtmlMinifier(eleventyConfig, isBuild);
 
-	eleventyConfig.addPlugin(IdAttributePlugin, {});
 
 	eleventyConfig.addShortcode("currentBuildDate", () => {
 		return new Date().toISOString();

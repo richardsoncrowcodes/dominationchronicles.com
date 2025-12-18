@@ -8,6 +8,23 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('yyyy-LL-dd');
 	});
+	eleventyConfig.addFilter("absoluteUrl", (path, baseUrl) => {
+		if (!path) {
+			return "";
+		}
+		if (/^https?:\/\//i.test(path)) {
+			return path;
+		}
+		const base = (baseUrl || "").replace(/\/$/, "");
+		const normalizedPath = path.startsWith("/") ? path : `/${path}`;
+		return `${base}${normalizedPath}`;
+	});
+	eleventyConfig.addFilter("htmlBaseUrl", (path, baseUrl) => {
+		if (!path) {
+			return "";
+		}
+		return eleventyConfig.getFilter("absoluteUrl")(path, baseUrl);
+	});
 	eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addFilter("head", (array, n) => {
 		if(!Array.isArray(array) || array.length === 0) {
