@@ -32,6 +32,9 @@ We close today's conversation by acknowledging that some (many?) of those who fo
 
 Steve says the "domination translator" throws some of our listeners for a loop. Peter recounts his answer to students who expressed "disillusionment" after learning about the domination inherent in US law: He responded, "Wonderful! Losing illusions is the first step to understanding."
 
+## Transcript
+[Download an AI Generated Transcript of this conversation](/pdfs/e008-words-meaning.pdf)
+
 ## **Resources**:
 
 - Dee Brown writings: <https://www.americanheritage.com/users/dee-brown>
@@ -54,7 +57,7 @@ Steve says the "domination translator" throws some of our listeners for a loop. 
 
 - Stephen Winter, *A Clearing in the Forest: Law, Life, and Mind* [*https://www.google.com/books/edition/A_Clearing_in_the_Forest/wOP5IAUywF0C?hl=en*](https://www.google.com/books/edition/A_Clearing_in_the_Forest/wOP5IAUywF0C?hl=en)
 
-Hu- man Rights Fact Sheet No. 9, Rev. 2, Indigenous Peoples and the United Nations Human Rights System <https://www.un-ilibrary.org/content/books/9789210059169>
+- Human Rights Fact Sheet No. 9, Rev. 2, Indigenous Peoples and the United Nations Human Rights System <https://www.un-ilibrary.org/content/books/9789210059169>
 
 - *Cherokee Nation v. Georgia* <https://supreme.justia.com/cases/federal/us/30/1/>
 

@@ -22,8 +22,13 @@ export default async function (eleventyConfig) {
 	const isProduction = process.env.ELEVENTY_ENV === "production";
 	const isBuild = process.env.ELEVENTY_RUN_MODE === "build";
 	// Removed manual authors.json loading. Eleventy will auto-load _data/authors.yaml and _data/authors.json as global data.
-	eleventyConfig.addPreprocessor("drafts", "*", (data, content) => {
-		if (data.draft && isBuild) {
+	eleventyConfig.addPreprocessor("drafts", "*", (data) => {
+		const isDraft = data?.draft === true;
+		const isExplicitlyUnpublished = data?.published === false;
+		if (isExplicitlyUnpublished) {
+			return false;
+		}
+		if (isDraft && isBuild) {
 			return false;
 		}
 	});
