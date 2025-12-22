@@ -63,3 +63,9 @@ Steve says the "domination translator" throws some of our listeners for a loop. 
 
 - Papal Bull *Inter Caetera* (1493) {" We trust in Him from whom empires and governments and all good things proceed..."; AND "...que sub actuali dominio temporali aliquorum dominorum Christianorum constitute non essent....} in *European Treaties bearing on the History of the United States and its Dependencies to 1648*, Frances Gardiner Davenport (editor) <https://clclibrary-org-works.angelfire.com/treaty1.html>
     - Sebastian Modrow and Melissa Smith have done an updated translation of [*Inter Caetera*](https://doctrineofdiscovery.org/inter-caetera/) for the [Doctrine of Discovery Project](https://doctrineofdiscovery.org/inter-caetera/).
+
+## Citation
+Steve Newcomb and Peter d’Errico, "E008: WORDS & MEANINGS," _Domination Chronicles_ (Podcast), December 7, 2025. <https://dominationchronicles.com/episodes/e008-words-meanings/>
+
+- [Download RIS Citation](/citations/e008-words-meanings.ris)
+- [Download CSL JSON Citation](/citations/e008-words-meanings.csl.json)

@@ -44,3 +44,9 @@ In *Brown*, the court overturned the "separate but equal" doctrine because it ob
 - "Termination" Policy <https://www.archives.gov/research/native-americans/bia/termination>
 
 - "*McGirt v. Oklahoma*: Revealing and Concealing Domination" <https://www.youtube.com/watch?v=W9GFzDbzphE&t=167s>
+
+## Citation
+Steve Newcomb and Peter d’Errico, "E010: Pulp Legal Fiction: The Bizarre Case Of Tee-hit-ton v. US," _Domination Chronicles_ (Podcast), December 22, 2025. <https://dominationchronicles.com/episodes/e010-tee-hit-ton/>
+
+- [Download RIS Citation](/citations/e010-tee-hit-ton.ris)
+- [Download CSL JSON Citation](/citations/e010-tee-hit-ton.csl.json)
