@@ -14,7 +14,6 @@ tags:
   - language
   - race
 ---
-
 ## **PULP LEGAL FICTION: THE BIZARRE CASE OF *TEE-HIT-TON V. US***
 
 Today we do a 70-year retrospective on the 1955 Supreme Court decision, *Tee-Hit-Ton v. United States*, which reaffirmed the 1823 US claim of a right of domination announced in *Johnson v. McIntosh*. But *Tee-Hit-Ton* also did something else: It laundered the *Johnson* decision for 20^th^ century sensibilities by deleting the word "Christian" from the "doctrine of Christian discovery". That redaction made it possible for later judges -- like Ruth Bader Ginsburg in 2005 -- to avoid the religious basis of the claim of a right of domination. In fact, the rhetorical clean-up increased the use of *Johnson v. McIntosh* as a legal precedent in federal anti-Indian law.
@@ -22,6 +21,10 @@ Today we do a 70-year retrospective on the 1955 Supreme Court decision, *Tee-Hit
 We compare *Tee-Hit-Ton* with the decision one year earlier in *Brown v. Board of Education* that overturned the segregation doctrine of "separate but equal". We explain how these two cases, apparently completely divergent in their outcomes, were actually on the same trajectory.
 
 In *Brown*, the court overturned the "separate but equal" doctrine because it obstructed the "Cold War" quest of the United States to dominate international politics. In *Tee-Hit-Ton*, maintaining but hiding the doctrine of Christian discovery - the claim of ownership of the "North American" landmass, with its many sites of strategically important industrial resources (like the timber taken from Tlingit land) - supported a core U.S. geopolitical interest. Taken together, *Brown* and *Tee-Hit-Ton* were parts of a mission to dominate the world -  literally.
+
+## Transcript
+## Transcript
+[Download an AI Generated Transcript of this conversation](/pdfs/e010-tee-hit-ton.pdf)
 
 ### **Resources:**
 
