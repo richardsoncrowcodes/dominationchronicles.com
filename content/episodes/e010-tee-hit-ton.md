@@ -23,7 +23,6 @@ We compare *Tee-Hit-Ton* with the decision one year earlier in *Brown v. Board o
 In *Brown*, the court overturned the "separate but equal" doctrine because it obstructed the "Cold War" quest of the United States to dominate international politics. In *Tee-Hit-Ton*, maintaining but hiding the doctrine of Christian discovery - the claim of ownership of the "North American" landmass, with its many sites of strategically important industrial resources (like the timber taken from Tlingit land) - supported a core U.S. geopolitical interest. Taken together, *Brown* and *Tee-Hit-Ton* were parts of a mission to dominate the world -  literally.
 
 ## Transcript
-## Transcript
 [Download an AI Generated Transcript of this conversation](/pdfs/e010-tee-hit-ton.pdf)
 
 ### **Resources:**
