@@ -34,7 +34,22 @@ Need Help or have project ?? Contact Me.
 + Update Host Profile Page on `content/host/*.md`
 + Update Podcast Epsiode on `content/episodes/*.md`
 
-### Change Log
+
+### Workflow
+Domination chronicles is
+1. creating the podcast file by putting together the intro.wav, outro.wav and whatever content
+2. youtube caption
+3. social media caption
+5. google metadescription
+6. posting writing show notes
+    1. show notes require
+        1. a pdf of the transcript uploaded and linked
+        2. content of show notes
+        2. embeded audio player
+        3. embeded youtube
+        4. citation block
+        
+### CHANGELOG
 
 01 Dec 2025
 + Add cover image if not use videoId
