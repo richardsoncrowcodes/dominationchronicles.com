@@ -6,10 +6,22 @@ date: Last Modified
 use_plugin_seo: false
 ---
 
+{% set githubList = githubContributors | default([]) %}
+{% set coauthors = widget.host.list | default([]) %}
+
 /* WHO */
 
   Adam DJ Brett
   Website: adamdjbrett.com
+
+{% if coauthors | length %}
+/* CO-AUTHORS */
+  {% for author in coauthors %}
+  {{ author.name }}
+  {% if author.page %}{% set profilePath = author.page | url %}Profile: {{ metadata.url | default('https://dominationchronicles.com') }}{{ profilePath }}{% endif %}
+  {% if author.text %}Focus: {{ author.text | striptags | truncate(140) }}{% endif %}
+  {% endfor %}
+{% endif %}
 
 /* THANKS */
   Username: Creativas.dev
@@ -18,6 +30,13 @@ use_plugin_seo: false
   Eleventy Creator: Zachleat
   Twitter: @zachleat
 
+{% if githubList | length %}
+/* GITHUB CONTRIBUTORS */
+  {% for contributor in githubList %}
+  {{ contributor.login }} ({{ contributor.contributions }} commits)
+  Profile: {{ contributor.url }}
+  {% endfor %}
+{% endif %}
 
 /* Credits */
 

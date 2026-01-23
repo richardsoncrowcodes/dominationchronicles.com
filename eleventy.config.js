@@ -33,6 +33,7 @@ export default async function (eleventyConfig) {
 	});
 	eleventyConfig.addPlugin(eleventyPluginYoutubeEmbed);
 	eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+	eleventyConfig.ignores.add("./_drafts/**/*");
 	eleventyConfig
 		.addPassthroughCopy({
 			"./public/": "/",
