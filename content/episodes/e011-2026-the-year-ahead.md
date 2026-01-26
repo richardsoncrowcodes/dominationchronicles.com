@@ -17,21 +17,18 @@ published: true
 ---
 ## Introduction
 
-DOMINATION CHRONICLES: 2026 -- THE YEAR AHEAD
+DOMINATION CHRONICLES: 2026 &mdash; THE YEAR AHEAD
 ============================================
 
 Our New Year's Day conversation presents a variety of topics we intend to discuss in the months ahead in a continuing exploration of Free Existence and Domination. We will invite guests to join us in some of these episodes.
 
-The focus throughout---as always in Domination Chronicles---is on words and meanings, connecting dots in overlapping and entangled histories, opening ways to step outside conventional approaches, penetrating institutional and narrative façades, always in an effort to understand Life.
+The focus throughout&mdash;as always in Domination Chronicles&mdash;is on words and meanings, connecting dots in overlapping and entangled histories, opening ways to step outside conventional approaches, penetrating institutional and narrative façades, always in an effort to understand Life.
 
-We emphasize the necessity of deep, wide, and close reading of all documents---legal and other---with an aim to articulate manifestations of "free existence" and "domination".
+We emphasize the necessity of deep, wide, and close reading of all documents&mdash;legal and other&mdash;with an aim to articulate manifestations of "free existence" and "domination".
 
-Our topics will include some of the most recent technologies---like so-called "artificial intelligence"---and some of the longest-running narratives---like "sympathy" and "apology" for dominations.
+Our topics will include some of the most recent technologies&mdash;like so-called "artificial intelligence"&mdash;and some of the longest-running narratives&mdash;like "sympathy" and "apology" for dominations.
 
 Selected legal cases and professional publications will also come under our scrutiny.
-
-
-
 
 ## Transcript
 [Download an AI Generated Transcript of this conversation](/pdfs/e011-2026-the-year-ahead.pdf)
