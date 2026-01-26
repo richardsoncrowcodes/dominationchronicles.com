@@ -1,12 +1,11 @@
 ---
-
 title: "2026 - The Year Ahead"
-description: "A New Year’s conversation exploring domination, free existence, law, language, and technology—connecting deep history to urgent questions shaping 2026. "
+description: "A New Year’s conversation exploring domination, free existence, law, language, and technology—connecting deep history to urgent questions shaping 2026."
 publishDate: 2026-01-23
 image: /img/podcast/cover-art2.webp
 duration: "52:06"
 videoId: XmIBeK53IpQ 
-redcircle_embed: #the embeded urls.
+redcircle_embed: https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/92bde911-f85b-4797-b69e-bc16cf63fb01 #change api.codcache.net to redcircle.com
 tags: 
   - domination
   - freedom
@@ -14,9 +13,8 @@ tags:
   - law
   - language
   - technology
-published: false
+published: true
 ---
-
 ## Introduction
 
 DOMINATION CHRONICLES: 2026 -- THE YEAR AHEAD
