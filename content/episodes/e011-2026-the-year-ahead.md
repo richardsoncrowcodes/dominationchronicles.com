@@ -1,5 +1,5 @@
 ---
-title: "2026 - The Year Ahead"
+title: "E11: 2026 - The Year Ahead"
 description: "A New Year’s conversation exploring domination, free existence, law, language, and technology—connecting deep history to urgent questions shaping 2026."
 publishDate: 2026-01-23
 image: /img/podcast/cover-art2.webp
