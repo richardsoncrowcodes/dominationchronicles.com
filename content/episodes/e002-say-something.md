@@ -1,5 +1,5 @@
 ---
-title: "E002: Say Something, See Something"
+title: "Episode 2: Say Something, See Something"
 description: "Steve Newcomb and Peter d’Errico dig into Halverson v. Burgum, the August 21, 2025, Ninth Circuit dismissal of Jack Halverson’s (Crow Nation) case against the Bureau of Indian Affairs."
 image: /img/podcast/cover-art2.webp
 duration: "1:04:32"

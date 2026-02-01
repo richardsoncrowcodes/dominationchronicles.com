@@ -1,5 +1,5 @@
 ---
-title: "E004: Seeing Through To The Emperor's Extravagant Pretension"
+title: "Episode 4: Seeing Through To The Emperor's Extravagant Pretension"
 description: "A concurring opinion in FLYING T RANCH v. STILLAGUAMISH TRIBE, October 9, 2025, from the Supreme Court of the State of Washington criticized the 'racism' of foundational cases in 'federal Indian law'. "
 image: /img/podcast/cover-art2.webp
 duration: "54:15"

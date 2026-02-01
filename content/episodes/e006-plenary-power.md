@@ -1,5 +1,5 @@
 ---
-title: "E006: Supreme Court Justices Attack 'plenary power' over Native Peoples"
+title: "Episode 6: Supreme Court Justices Attack 'plenary power' over Native Peoples"
 description: "A dramatic Dissent by Supreme Court Justices Gorsuch and Thomas Opens a Path to Tectonic Changes in US Law"
 image: /img/podcast/cover-art2.webp
 duration: "55:56"

@@ -1,6 +1,6 @@
 ---
 title: |
-    E007: A Quantum View of “Free Existence” as Entangled Indeterminacy
+    Episode 7: A Quantum View of “Free Existence” as Entangled Indeterminacy
 description: "In this episode, Steve Newcomb and Peter d'Errico explore how quantum theory can help us rethink the meaning of free existence"
 image: /img/podcast/cover-art2.webp
 duration: "50:52"

@@ -1,5 +1,5 @@
 ---
-title: "Episode 009: McGirt v. Oklahoma: Revealing and Concealing Domination"
+title: "Episode 9: McGirt v. Oklahoma: Revealing and Concealing Domination"
 description: "Steve Newcomb and Peter d'Errico provide an analysis of *McGirt v. Oklahoma* that examines how the decision reveals and conceals domination in U.S. law, jurisdiction, and federal power over Indigenous nations."
 image: /img/podcast/cover-art2.webp
 duration: "47:17"

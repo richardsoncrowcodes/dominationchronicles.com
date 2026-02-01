@@ -1,5 +1,5 @@
 ---
-title: "E010: Pulp Legal Fiction: The Bizarre Case Of Tee-hit-ton v. US"
+title: "Episode 10: Pulp Legal Fiction: The Bizarre Case Of Tee-hit-ton v. US"
 description: "Domination Chronicles unpacks Tee-Hit-Ton v. United States (1955) and the doctrine of Christian discovery, comparing it with Brown v. Board of Education to show how both cases advanced U.S. projects of racial segregation, land theft, and global domination."
 image: /img/podcast/cover-art2.webp
 duration: "48:00"

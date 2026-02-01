@@ -1,5 +1,5 @@
 ---
-title: "E001: Our Opening Conversation"
+title: "Episode 1: Our Opening Conversation"
 description: "In this inaugural episode of *Domination Chronicles*, Steven Newcomb (Shawnee/Lenape) and Peter d'Errico deepen a decades-long dialogue on how systems of domination have shaped U.S. federal Indian law, beginning with the 1823 Johnson v. *McIntosh* decision and its roots in 15th-century the Doctrine of Christian Discovery."
 image: /img/podcast/cover-art2.webp
 redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/ff4c72f9-58a7-431e-9ff7-5784dea4608b?"

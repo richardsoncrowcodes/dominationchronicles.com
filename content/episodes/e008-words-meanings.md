@@ -1,5 +1,5 @@
 ---
-title: "E008: WORDS & MEANINGS"
+title: "Episode 8: WORDS & MEANINGS"
 description: "In this episode, Steve Newcomb and Peter d'Errico examine how everyday words hide a deeper system of domination. Drawing on law, history, and lived experience, they reveal how language shapes our understanding of power and invites us to recover an original sense of free existence."
 image: /img/podcast/cover-art2.webp
 duration: "50:30"

@@ -1,12 +1,10 @@
 ---
-
-title: "Domination Chronicles Episode 13: A Domination Chronicles Lexicon"
+title: "Episode 13: A Domination Chronicles Lexicon"
 description: "Steve and Peter discuss key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire."
 publishDate: 2026-02-01
 image: /img/podcast/cover-art2.webp
 duration: "5:04"
 #videoId: aAt7tK0n63U 
-
 redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/b9b58f18-0f0a-4155-ac80-2e096835c784"
 tags: 
 - civilization
@@ -18,8 +16,6 @@ tags:
 - dominion
 - property
 - empire
-
-
 published: false
 ---
 
@@ -44,11 +40,6 @@ The hosts break down the "underlying code" of colonization through these specifi
 -   **Property:** Described by jurist William Blackstone as "despotic dominion" or the first socially approved "physical domination" over the natural world.
 
 -   **Empire:** Identified by George Washington as the goal for the United States, representing a "sovereignty that would expand" in power and territory.
-
-
-
-
-
 
 ## Transcript
 [Download an AI Generated Transcript of this conversation](/pdfs/e013-a-domination-chronicles-lexicon.pdf)
