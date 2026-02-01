@@ -24,7 +24,7 @@ published: false
 ---
 
 ## Introduction
-In this Domination Chronicles podcast, hosts Peter DiRico and Stephen Newcomb draw on their 90 years of combined experience to analyze how linguistic definitions reveal a "pattern of domination" used against Indigenous nations. The episode focuses on seven key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire.
+In this Domination Chronicles podcast, hosts Peter d'Errico and Steven Newcomb draw on their 90 years of combined experience to analyze how linguistic definitions reveal a "pattern of domination" used against Indigenous nations. The episode focuses on seven key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire.
 
 
 ## Key Terminology and Definitions
