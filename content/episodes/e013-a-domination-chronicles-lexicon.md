@@ -16,7 +16,7 @@ tags:
 - dominion
 - property
 - empire
-published: false
+published: true
 ---
 
 ## Introduction

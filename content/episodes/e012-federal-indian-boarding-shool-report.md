@@ -6,15 +6,14 @@ publishDate: 2026-01-28
 image: /img/podcast/cover-art2.webp
 duration: "48:02"
 videoId: aAt7tK0n63U 
-
-redcircle_embed: 
+redcircle_embed: https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/2fab27af-8ab7-4b00-99c7-66e10b8061b2
 tags: 
   - boarding
   - school
   - genocide
   - domination
   - indoctrination
-published: false
+published: true
 ---
 
 ## Introduction
