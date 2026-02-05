@@ -1,0 +1,19 @@
+export default {
+	manual: [
+		{
+			from: "^/youtube/?$",
+			to: "https://www.youtube.com/@DominationChronicles",
+			permanent: true,
+		},
+		{
+			from: "^/redcircle/?$",
+			to: "https://redcircle.com?utm_source=rc_embedded_player&utm_medium=web&utm_campaign=embedded_v1",
+			permanent: true,
+		},
+		{
+			from: "^/podcast/?$",
+			to: "https://redcircle.com/shows/dominationchronicles",
+			permanent: true,
+		},
+	],
+};
