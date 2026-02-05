@@ -39,6 +39,8 @@ export default async function (eleventyConfig) {
 			"./public/": "/",
 			"./public/img/favicon/favicon.ico": "/favicon.ico"
 		})
+		// Copy xmit.json (JSON) to output root for Xmit hosting
+		.addPassthroughCopy({ "./xmit.json": "/xmit.json" })
 		.addPassthroughCopy("./content/feed/pretty-atom-feed.xsl")
 		.addPassthroughCopy("./public/img/favicons")
 		.addPassthroughCopy("./public/pdfs")

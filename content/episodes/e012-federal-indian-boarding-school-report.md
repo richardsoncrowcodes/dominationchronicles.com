@@ -1,5 +1,4 @@
 ---
-
 title: "Episode 12: The Federal Indian Boarding School Report: Apology, Assimilation, and Ongoing Domination"
 description: "Steve and Peter discuss the Federal Indian Boarding School Report, and its function in domination and genocide."
 publishDate: 2026-01-28
@@ -14,9 +13,7 @@ tags:
   - domination
   - indoctrination
 published: true
-redirect_from: /episodes/federal-indian-boarding-shool-report/
 ---
-
 ## Introduction
 
 

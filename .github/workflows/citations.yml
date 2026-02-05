@@ -51,6 +51,6 @@ jobs:
         if: github.ref == 'refs/heads/main' && steps.changed.outputs.added_files_count != '0'
         with:
           commit_message: 'chore(citations): update generated RIS and CSL-JSON files'
-          commit_author_name: GitHub Actions
-          commit_author_email: actions@github.com
+          commit_user_name: GitHub Actions
+          commit_user_email: actions@github.com
           file_pattern: 'public/citations/**'
