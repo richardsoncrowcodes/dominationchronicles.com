@@ -7,13 +7,10 @@ duration: "1:08:04"
 #videoId: aAt7tK0n63U 
 #redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/b9b58f18-0f0a-4155-ac80-2e096835c784"
 tags: 
-- persistent control
 - domination
 - policy
 - self-government
-- sideways move
-- fiscal dependency
-
+- fiscal-dependency
 published: false
 ---
 
