@@ -5,7 +5,7 @@ publishDate: 2026-02-10
 image: /img/podcast/cover-art2.webp
 duration: "1:06:45"
 videoId: https://youtu.be/1msjYo4ODF4
-#redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/b9b58f18-0f0a-4155-ac80-2e096835c784"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/5a963ef5-d20d-4eab-93bb-4c3a8a77f30c"
 tags: 
 - domination
 - policy
