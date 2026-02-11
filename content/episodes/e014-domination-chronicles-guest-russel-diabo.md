@@ -1,10 +1,10 @@
 ---
 title: "Episode 14: RUSSELL DIABO: TRUTH BEFORE RECONCILIATION"
 description: "Peter P. d’Errico and Steven Newcomb and their guest, Russel Diabo, a Mohawk policy analyst and advocate."
-publishDate: 2026-02-04
+publishDate: 2026-02-10
 image: /img/podcast/cover-art2.webp
-duration: "1:08:04"
-#videoId: aAt7tK0n63U 
+duration: "1:06:45"
+videoId: https://youtu.be/1msjYo4ODF4
 #redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/b9b58f18-0f0a-4155-ac80-2e096835c784"
 tags: 
 - domination
@@ -17,7 +17,9 @@ published: false
 ## Introduction
 
 Today Russell Diabo (Mohawk Nation at Kahnawake) joins us for a conversation about Canada’s efforts to extinguish the existence of First Nations Peoples, historically and in the present. Russell is a First Nations policy analyst, working with strategic issues that are especially highlighted now with what the Canadian government is trying to do to essentially get rid of the last vestiges of independent existence of Native peoples. Russell has been active for decades now in First Nations and Indigenous peoples' issues internationally.
+
 Russell talks about his background—experiences at Wounded Knee and other sites where Native Peoples confronted government claims of a right of domination; learning from Vine Deloria, Jr., and in academic programs at several colleges and universities—and how this educational trajectory led to his engagement with the Assembly of First Nations and the development of his “First Nations Strategic Bulletin”.
+
 The conversation digs into the deceptive words and practices of so-called “reconciliation”, especially its latest incarnation as “economic reconciliation” for “Indigenous self-government”. Russell explains how the Canadian government operates a public relations “SWAT” team—“Special Words and Tactics”—to obscure the actual operations of its claim to a right of domination.
 
 **Russel Diabo’s Background**
