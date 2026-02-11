@@ -1,6 +1,6 @@
 ---
 title: "Episode 13: A Domination Chronicles Lexicon"
-description: "Steve and Peter discuss key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire."
+description: "Steve discusses key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire."
 publishDate: 2026-02-01
 image: /img/podcast/cover-art2.webp
 duration: "5:04"
@@ -20,7 +20,7 @@ published: true
 ---
 
 ## Introduction
-In this Domination Chronicles podcast, hosts Peter d'Errico and Steven Newcomb draw on their 90 years of combined experience to analyze how linguistic definitions reveal a "pattern of domination" used against Indigenous nations. The episode focuses on seven key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire.
+In this Domination Chronicles podcast, hosts Steven Newcomb draw on his decades of experience to analyze how linguistic definitions reveal a "pattern of domination" used against Indigenous nations. The episode focuses on seven key terms used to justify the loss of Indigenous freedom and the rise of the United States as an empire.
 
 
 ## Key Terminology and Definitions
@@ -54,4 +54,4 @@ The hosts break down the "underlying code" of colonization through these specifi
 
 
 ## Citation
-Steve Newcomb and Peter d’Errico, "Domination Chronicles Episode 13: A Domination Chronicles Lexicon," _Domination Chronicles_ (Podcast), 2026-02-01, <https://dominationchronicles.com/e013-a-domination-chronicles-lexicon>.
+Steve Newcomb, "Domination Chronicles Episode 13: A Domination Chronicles Lexicon," _Domination Chronicles_ (Podcast), 2026-02-01, <https://dominationchronicles.com/e013-a-domination-chronicles-lexicon>.
