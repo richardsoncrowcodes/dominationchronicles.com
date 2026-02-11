@@ -1,6 +1,6 @@
 ---
 title: "Episode 14: RUSSELL DIABO: TRUTH BEFORE RECONCILIATION"
-description: "Peter P. d’Errico and Steven Newcomb and their guest, Russel Diabo, a Mohawk policy analyst and advocate."
+description: "Peter P. d’Errico and Steven Newcomb and their guest, Russell Diabo, a Mohawk policy analyst and advocate."
 publishDate: 2026-02-10
 image: /img/podcast/cover-art2.webp
 duration: "1:06:45"
@@ -21,17 +21,13 @@ Russell talks about his background—experiences at Wounded Knee and other sites
 
 The conversation digs into the deceptive words and practices of so-called “reconciliation”, especially its latest incarnation as “economic reconciliation” for “Indigenous self-government”. Russell explains how the Canadian government operates a public relations “SWAT” team—“Special Words and Tactics”—to obscure the actual operations of its claim to a right of domination.
 
-**Russel Diabo’s Background**
+**Russell Diabo’s Background**
 --------------------------
 
 Diaboshares his lifelong involvement in Indigenous activism, which beganin his teens:
 
-*   **Early Activism**: He participated in the **1972 BIA building takeover** in Washington D.C. and the **1973 occupationof Wounded Knee**, where he witnessed firefights involving federal marshals.
-    
-
-*   **Education**: A former high school dropout inspired by Vine Deloria Jr., he eventually earned a degree in Native Studies and attended graduateschool under Deloria.
-    
-
+*   **Early Activism**: He participated in the **1972 BIA building takeover** in Washington D.C. and the **1973 occupationof Wounded Knee**, where he witnessed firefights involving federal marshals.  
+*   **Education**: A former high school dropout inspired by Vine Deloria Jr., he eventually earned a degree in Native Studies and attended graduate school under Deloria.
 *   **Professional Focus**: He has spent decades analyzing Canadian policy,specifically how the "rights recognition framework" oftenserves to limit rather than empower Indigenous peoples.
 
 **Key Themes: Domination and Policy**
