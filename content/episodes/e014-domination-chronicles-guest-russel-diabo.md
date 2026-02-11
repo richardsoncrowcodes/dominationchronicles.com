@@ -75,27 +75,27 @@ The participants discuss "Special Words and Tactics" (SWAT)used by the governmen
 
 - Truth Before Reconciliation: [https://www.russdiabo.com/](https://www.russdiabo.com/)
 
-- Trail of Broken Treaties:[https://muscarelle.wm.edu/rising/broken-treaties/](https://muscarelle.wm.edu/rising/broken-treaties/)
+- Trail of Broken Treaties: [https://muscarelle.wm.edu/rising/broken-treaties/](https://muscarelle.wm.edu/rising/broken-treaties/)
 
-- Vine Deloria, Jr., _Custer Died for Your Sins_:[https://archive.org/details/custerdiedfory00delo](https://archive.org/details/custerdiedfory00delo)
+- Vine Deloria, Jr., _Custer Died for Your Sins_: [https://archive.org/details/custerdiedfory00delo](https://archive.org/details/custerdiedfory00delo)
 
-- Treaty of Fort Laramie (1868):[https://www.archives.gov/milestone-documents/fort-laramie-treaty](https://www.archives.gov/milestone-documents/fort-laramie-treaty)
+- Treaty of Fort Laramie (1868): [https://www.archives.gov/milestone-documents/fort-laramie-treaty](https://www.archives.gov/milestone-documents/fort-laramie-treaty)
 
-- Section 35, Canada Constitution:[https://www.constitutionalstudies.ca/2021/09/section-35-aboriginal-and-treaty-rights/](https://www.constitutionalstudies.ca/2021/09/section-35-aboriginal-and-treaty-rights/)
+- Section 35, Canada Constitution: [https://www.constitutionalstudies.ca/2021/09/section-35-aboriginal-and-treaty-rights/](https://www.constitutionalstudies.ca/2021/09/section-35-aboriginal-and-treaty-rights/)
 
 - 1876 “Indian Act”: [https://www.caid.ca/IndAct1876.pdf](https://www.caid.ca/IndAct1876.pdf)
 
-- _Sparrow v. Queen_ (1990):[https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/609/index.do](https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/609/index.do)
+- _Sparrow v. Queen_ (1990): [https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/609/index.do](https://scc-csc.lexum.com/scc-csc/scc-csc/en/item/609/index.do)
 
-- Bill C-15, “An Act respecting the United Nations Declaration on theRights of Indigenous Peoples” (2021):[https://publications.gc.ca/collections/collection\_2021/parl/XB432-15-3.pdf](https://publications.gc.ca/collections/collection_2021/parl/XB432-15-3.pdf)
+- Bill C-15, “An Act respecting the United Nations Declaration on theRights of Indigenous Peoples” (2021): [https://publications.gc.ca/collections/collection\_2021/parl/XB432-15-3.pdf](https://publications.gc.ca/collections/collection_2021/parl/XB432-15-3.pdf)
 
-- “Bill C-5: An Act to enact the Free Trade and Labour Mobility inCanada Act and the Building Canada Act”:[https://lop.parl.ca/sites/PublicWebsite/default/en\_CA/ResearchPublications/LegislativeSummaries/451C5E](https://lop.parl.ca/sites/PublicWebsite/default/en_CA/ResearchPublications/LegislativeSummaries/451C5E)
+- “Bill C-5: An Act to enact the Free Trade and Labour Mobility inCanada Act and the Building Canada Act”: [https://lop.parl.ca/sites/PublicWebsite/default/en\_CA/ResearchPublications/LegislativeSummaries/451C5E](https://lop.parl.ca/sites/PublicWebsite/default/en_CA/ResearchPublications/LegislativeSummaries/451C5E)
 
 - L.C. Green and Olive P. Dickason, _The Law of Nations and the NewWorld_: [https://archive.org/details/lawofnationsneww0000lcgr](https://archive.org/details/lawofnationsneww0000lcgr)
 
-- Two Row Wampum – Gaswéñdah:[https://www.onondaganation.org/culture/wampum/two-row-wampum-belt-guswenta/](https://www.onondaganation.org/culture/wampum/two-row-wampum-belt-guswenta/)
+- Two Row Wampum – Gaswéñdah: [https://www.onondaganation.org/culture/wampum/two-row-wampum-belt-guswenta/](https://www.onondaganation.org/culture/wampum/two-row-wampum-belt-guswenta/)
 
-- Susan Collis, “From Reconciliation to Economic Reconciliation: TheRise of a State Project and Its Limits” (2025) \[highlighted copy\]:[https://drive.google.com/file/d/1HtX0PR1hinX7-\_ghFfIDi8bN\_ece1FIu/view?usp=sharing](https://drive.google.com/file/d/1HtX0PR1hinX7-_ghFfIDi8bN_ece1FIu/view?usp=sharing)
+- Susan Collis, “From Reconciliation to Economic Reconciliation: TheRise of a State Project and Its Limits” (2025) \[highlighted copy\]: [https://drive.google.com/file/d/1HtX0PR1hinX7-\_ghFfIDi8bN\_ece1FIu/view?usp=sharing](https://drive.google.com/file/d/1HtX0PR1hinX7-_ghFfIDi8bN_ece1FIu/view?usp=sharing)
 
 
 

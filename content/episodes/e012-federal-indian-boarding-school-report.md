@@ -1,5 +1,5 @@
 ---
-title: "Episode 12: The Federal Indian Boarding School Report: Apology, Assimilation, and Ongoing Domination"
+title: "Episode 12: The Federal Indian Boarding School Report"
 description: "Steve and Peter discuss the Federal Indian Boarding School Report, and its function in domination and genocide."
 publishDate: 2026-01-28
 image: /img/podcast/cover-art2.webp
@@ -14,13 +14,15 @@ tags:
   - indoctrination
 published: true
 ---
-## Introduction
+## Episode 12: The Federal Indian Boarding School Report: Apology, Assimilation, and Ongoing Domination
+
+### Introduction
 
 
-# DOMINATION CHRONICLES SHOW NOTES
+### DOMINATION CHRONICLES SHOW NOTES
 January 10,2026
 
-## THE FEDERAL INDIAN BOARDING SCHOOL REPORT:
+### THE FEDERAL INDIAN BOARDING SCHOOL REPORT:
 *LANGUAGE, CONTEXT,AND SIGNIFICANCE*
 
 Today we focus on what was billed as an “historic apology” by the US government for atrocities committed by the so-called “Indian boarding schools”—prisons for children taken from their homes and subjected to what the Report calls “systematic militarized and identity-alteration methodologies” to break their ties with their Peoples—all as part of what the Report calls “a twin policy: Indian territorial dispossession and Indian assimilation”.
