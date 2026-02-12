@@ -46,6 +46,15 @@ jobs:
             echo "_site directory missing after build" >&2
             exit 1
           fi
+          if [ ! -f _site/xmit.json ]; then
+            echo "_site/xmit.json missing after build" >&2
+            exit 1
+          fi
+          node -e "const fs=require('fs'); JSON.parse(fs.readFileSync('_site/xmit.json','utf8')); console.log('xmit.json is valid JSON');"
+          if ! cmp -s xmit.json _site/xmit.json; then
+            echo "_site/xmit.json does not match source xmit.json" >&2
+            exit 1
+          fi
           ls -1 _site | head -n 20
 
       - name: Deploy to XMIT (CLI)
