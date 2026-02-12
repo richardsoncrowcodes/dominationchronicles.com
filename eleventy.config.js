@@ -106,15 +106,22 @@ export default async function (eleventyConfig) {
 		return items.slice(0, count);
 	});
 	eleventyConfig.addFilter("toFeedDate", function (value) {
+		const feedZone = "America/New_York";
 		const fallback = new Date();
 		if (!value) {
-			return fallback.toISOString();
+			return DateTime.fromJSDate(fallback, { zone: feedZone }).toISO({
+				suppressMilliseconds: true,
+			});
 		}
 		const date = value instanceof Date ? value : new Date(value);
 		if (Number.isNaN(date.valueOf())) {
-			return fallback.toISOString();
+			return DateTime.fromJSDate(fallback, { zone: feedZone }).toISO({
+				suppressMilliseconds: true,
+			});
 		}
-		return date.toISOString();
+		return DateTime.fromJSDate(date, { zone: feedZone }).toISO({
+			suppressMilliseconds: true,
+		});
 	});
 	eleventyConfig.on("eleventy.after", () => {
 		if (isBuild) {
