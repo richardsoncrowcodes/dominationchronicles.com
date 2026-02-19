@@ -1,11 +1,11 @@
 ---
-title: "Episode 15 : “STOLEN LAND”: THE DANGER AND LIMITATION OF PERFORMATIVE SPEECH"
+title: "Episode 15: “STOLEN LAND”: THE DANGER AND LIMITATION OF PERFORMATIVE SPEECH"
 description: "Peter P. d'Errico and Steven Newcomb, explores the deep historical and legal structures of stolen land and the right of domination."
-publishDate: 2026-02-09
+publishDate: 2026-02-19
 image: /img/podcast/cover-art2.webp
-duration: "50:41"
-#videoId: aAt7tK0n63U 
-#redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/b9b58f18-0f0a-4155-ac80-2e096835c784"
+duration: "49:24"
+videoId: z4YAOiiR_Ww 
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/f25f58cc-0432-480a-8297-0396437ca418"
 tags: 
 - domination
 - performative-speech
@@ -15,8 +15,6 @@ tags:
 - critique-of-legal-figures
 - american-exceptionalism
 - doctrine-of-discovery
-
-published: false
 ---
 
 ## Introduction
@@ -25,10 +23,12 @@ Pop culture meets legal theory: The sound and fury provoked by Billie Eilish’s
 2026 Grammy Award ceremony, “no one is illegal on stolen land” includes an Opinion Editorial
 in the Washington Post by Richard Epstein and Max Raskin, two law professors, “No, Billie
 Eilish, Americans are not thieves on stolen Land”.
+
 We look at the dynamics of the furor, showing how what may seem to be a national discussion
 about American history and law is actually only performative speech, words signaling claims of
 virtue and expertise. The apparent discussion obscures and cuts off the possibility of actually
 digging into American history and law.
+
 Our conversation does this digging, examining how concepts like ‘property’ and ‘theft’ are
 emanations of frameworks claiming a right of domination.
 
@@ -36,7 +36,7 @@ emanations of frameworks claiming a right of domination.
 
 *   **Performative Speech:** Peter identifies two types of performative speech. The first is speech that acts as a legal deed, such as claiming land for a monarch or a Supreme Court ruling. The second is "empty" speech used for social approval without accompanying action, such as modern political apologies or celebrity statements.
     
-*   **The"Stolen Land" Controversy:** The hosts discuss the backlash against singer Billie Eilish for her "stolen land" comments at the Grammys. They argue that while such statementstouch a "third rail" of American mythology, both the statement and the responses often fail to address the underlying legal framework of domination.
+*   **The "Stolen Land" Controversy:** The hosts discuss the backlash against singer Billie Eilish for her "stolen land" comments at the Grammys. They argue that while such statementstouch a "third rail" of American mythology, both the statement and the responses often fail to address the underlying legal framework of domination.
     
 *   **Legal Precedents of Domination:** A central focus is the 1823 Supreme Court case _Johnson v. McIntosh_. The hosts explain how this ruling established U.S. land title based on the "extravagant pretension" that discovery by "Christian nations" conferred a right of domination over indigenous lands.
     
@@ -57,7 +57,7 @@ emanations of frameworks claiming a right of domination.
     
 *   **American Exceptionalism:** The belief that the United States is auniquely righteous nation, which the hosts argue serves to mask thehistorical reality of colonization and genocide.
     
-*   **Doctrineof Discovery:** The historical principle, originating in Vatican papal bulls, used by Christian monarchs to claim"non-Christian" lands.
+*   **Doctrineof Discovery:** The historical principle, originating in Vatican papal bulls, used by Christian monarchs to claim their right to claim "discovered" lands for "non-Christian" lands.
 
 
 ## Transcript
@@ -73,7 +73,6 @@ ice-no-one-illegal-song-of-year-grammys-2026-1236492156/](https://www.hollywoodr
 - “No, Billie Eilish, Americans are not thieves on stolen land”
 [https://www.washingtonpost.com/opinions/2026/02/05/billie-eilish-grammys-stolen-land/](https://www.washingtonpost.com/opinions/2026/02/05/billie-eilish-grammys-stolen-land/)
 
-
 - “Inter Caetera”, Pope Alexander VI – 1493 --
 [https://www.papalencyclicals.net/alex06/alex06inter.htm](https://www.papalencyclicals.net/alex06/alex06inter.htm)
 
@@ -86,6 +85,5 @@ ice-no-one-illegal-song-of-year-grammys-2026-1236492156/](https://www.hollywoodr
 [https://www.congress.gov/bill/111th-congress/house-bill/3326/text](https://www.congress.gov/bill/111th-congress/house-bill/3326/text)
 
 
-
 ## Citation
-Steve Newcomb and Peter d’Errico, "Episode 15 : “STOLEN LAND”: THE DANGER AND LIMITATION OF PERFORMATIVE SPEECH," _Domination Chronicles_ (Podcast), 2026-02-09, <https://dominationchronicles.com/e015-domination-chronicles-stolen-land>.
+Steve Newcomb and Peter d’Errico, "Episode 15 : “STOLEN LAND”: THE DANGER AND LIMITATION OF PERFORMATIVE SPEECH," _Domination Chronicles_ (Podcast), 2026-02-19, <https://dominationchronicles.com/e015-domination-chronicles-stolen-land>.
