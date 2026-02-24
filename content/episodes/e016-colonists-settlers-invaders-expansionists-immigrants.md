@@ -1,26 +1,19 @@
 ---
 title: "Episode 16: “COLONISTS, SETTLERS, INVADERS, EXPANSIONISTS, IMMIGRANTS"
 description: "Peter d'Errico and Steven Newcomb critique a recent article in The Economist regarding the Indian Removal Act."
-publishDate: 2026-02-19
+publishDate: 2026-02-24
 image: /img/podcast/cover-art2.webp
-duration: "55:16"
-published: false
-#videoId: z4YAOiiR_Ww 
+duration: "53:58"
+videoId: mGPhvTVLpL8 
 #redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/f25f58cc-0432-480a-8297-0396437ca418"
 tags: 
-- the-economist
 - indian-removal-act
-- native-history
-- muscogee-creek-nation-memorial
-- rule-of-law
-- uncontrolled-invasion
+- muscogee
 - johnson-v-mcintosh
-- domination-of-liberty
-- original-free-existence
-- system-of-domination
-- empire-of-liberty
+- domination
+- liberty
 - vacant-lands
-
+- keywords
 ---
 
 ## Introduction
@@ -28,9 +21,11 @@ tags:
 Today, we talk about a February 2, 2026, article in The Economist, titled “The Indian Removal Act, Unchecked Expansionism, and Disregard for the Rule of Law”, written by a history professor at the State University of Pennsylvania. The article is an opaque and confusing critique of current US immigration policy; opaque because it doesn’t really say that, and confusing in ways we discuss.
 
 The centerpiece of the article is an 1832 Memorial of the Muskogee Creek Nation protesting the uncontrolled invasion of their lands by “white settlers” eager to “remove” the Muskogee Creek people from the land. As the Memorial makes clear, the “expansionism” in the article title actually refers to colonial invasion / settler invasion / immigration as tools in the US effort to “remove” Native peoples from their lands.
- In short, despite the article’s effort to use the Muscogee Creek Memorial to critique enforcement of immigration laws, unfettered immigration is the target of the Memorial. 
+
+In short, despite the article’s effort to use the Muscogee Creek Memorial to critique enforcement of immigration laws, unfettered immigration is the target of the Memorial. 
 
 The article title also refers to “disregard for the rule of law”, which is odd given that the Indian Removal Act was part of the rule of law: Congress passed the Act on May 28, 1830, seven years after the Supreme Court decision in Johnson v. McIntosh declared the US “owns” Native lands. So really, the problem was (and is) the use of “rule of law” as a weapon system used against Native nations and peoples for the purpose of domination.
+
 The Economist article is a disingenuous review of American and Native history that distorts the Muskogee Creek Memorial and tries to use it to critique US immigration policy. The author focuses on a couple of phrases from the Memorial about how the Muskogee Creek “helped” the poor white people when they first arrived and implies from this selective quotation that the Muskogee Creek were saying that immigration is not a problem. 
 
 Actually, the Muskogee Creek Memorial protests “settler” invasion of their territory coordinated, organized, and supported by state and federal armed forces. If the author had admitted this the article would have been turned inside out into a condemnation of uncontrolled immigration as a danger. 
@@ -94,11 +89,11 @@ Important Terms
 
 ## Resources:
 
-- H. Doc. 22-102 - Creek Indians. **Memorial of the head men and warriors, of the Creek Nation of Indians.** February 6, 1832.Referred to the Committee on Indian Affairs --[https://www.govinfo.gov/content/pkg/SERIALSET-00218_00_00-021-0102-0000/pdf/SERIALSET-00218_00_00-021-0102-0000.pdf](https://www.govinfo.gov/content/pkg/SERIALSET-00218_00_00-021-0102-0000/pdf/SERIALSET-00218_00_00-021-0102-0000.pdf)
+- H. Doc. 22-102 - Creek Indians. **Memorial of the head men and warriors, of the Creek Nation of Indians.** February 6, 1832.Referred to the Committee on Indian Affairs &mdash;[https://www.govinfo.gov/content/pkg/SERIALSET-00218_00_00-021-0102-0000/pdf/SERIALSET-00218_00_00-021-0102-0000.pdf](https://www.govinfo.gov/content/pkg/SERIALSET-00218_00_00-021-0102-0000/pdf/SERIALSET-00218_00_00-021-0102-0000.pdf)
 
-- “The Indian Removal Act: unchecked expansionism and disregard forthe rule of law”, by Christina Snyder. _**The Economist**_February 2, 2026 --[https://www.economist.com/by-invitation/2026/02/02/the-indian-removal-act-unchecked-expansionism-and-disregard-for-the-rule-of-law?giftId=Yjg2Y2NlYzktOGZkNi00ODYyLThhNWUtYmNkYzExYTRhOWNi](https://www.economist.com/by-invitation/2026/02/02/the-indian-removal-act-unchecked-expansionism-and-disregard-for-the-rule-of-law?giftId=Yjg2Y2NlYzktOGZkNi00ODYyLThhNWUtYmNkYzExYTRhOWNi)
+- “The Indian Removal Act: unchecked expansionism and disregard forthe rule of law”, by Christina Snyder. _**The Economist**_February 2, 2026 &mdash;[https://www.economist.com/by-invitation/2026/02/02/the-indian-removal-act-unchecked-expansionism-and-disregard-for-the-rule-of-law?giftId=Yjg2Y2NlYzktOGZkNi00ODYyLThhNWUtYmNkYzExYTRhOWNi](https://www.economist.com/by-invitation/2026/02/02/the-indian-removal-act-unchecked-expansionism-and-disregard-for-the-rule-of-law?giftId=Yjg2Y2NlYzktOGZkNi00ODYyLThhNWUtYmNkYzExYTRhOWNi)
 
-- **The Indian Removal Act of 1830** \--[https://www.nativehistoryassociation.org/removal\_act.pdf](https://www.nativehistoryassociation.org/removal_act.pdf)
+- **The Indian Removal Act of 1830** &mdash;[https://www.nativehistoryassociation.org/removal\_act.pdf](https://www.nativehistoryassociation.org/removal_act.pdf)
 
 - _Johnson v. McIntosh_ (1823) –[https://supreme.justia.com/cases/federal/us/21/543/](https://supreme.justia.com/cases/federal/us/21/543/)
 
@@ -106,7 +101,7 @@ Important Terms
 
 - _Worcester v. Georgia_ (1832) –[https://supreme.justia.com/cases/federal/us/31/515/](https://supreme.justia.com/cases/federal/us/31/515/)
 
-- _**The International Law of John Marshall,**_ by BenjaminMunn Ziegler (1939) --[https://archive.org/details/internationallaw0000benj](https://archive.org/details/internationallaw0000benj)
+- _**The International Law of John Marshall,**_ by BenjaminMunn Ziegler (1939) &mdash;[https://archive.org/details/internationallaw0000benj](https://archive.org/details/internationallaw0000benj)
 
 - “Physics, Reality, and Human Consciousness” by Steve Newcomb --[https://stevennewcomb.substack.com/p/physics-reality-and-human-consciousness](https://stevennewcomb.substack.com/p/physics-reality-and-human-consciousness)
 
