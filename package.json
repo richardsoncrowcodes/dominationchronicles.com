@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "npx @11ty/eleventy",
+		"build:ci": "npx @11ty/eleventy",
 		"build-nocolor": "cross-env NODE_DISABLE_COLORS=1 npx @11ty/eleventy",
 		"build-ghpages": "npx @11ty/eleventy --pathprefix=/11ty-sveltia-pico/",
 		"start": "npx @11ty/eleventy --serve --quiet",

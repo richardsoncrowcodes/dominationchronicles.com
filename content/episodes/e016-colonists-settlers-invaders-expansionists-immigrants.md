@@ -5,7 +5,7 @@ publishDate: 2026-02-24
 image: /img/podcast/cover-art2.webp
 duration: "53:58"
 videoId: mGPhvTVLpL8 
-#redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/4b3c1607-68b5-46cd-aa9a-7c7ffae6866f"
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/4b3c1607-68b5-46cd-aa9a-7c7ffae6866f"
 tags: 
 - indian-removal-act
 - muscogee
