@@ -25,6 +25,9 @@ export default function(eleventyConfig) {
 		}
 		return eleventyConfig.getFilter("absoluteUrl")(path, baseUrl);
 	});
+	eleventyConfig.addFilter("urlencode", (value) => {
+		return encodeURIComponent(value || "");
+	});
 	eleventyConfig.addNunjucksFilter("limit", (arr, limit) => arr.slice(0, limit));
 	eleventyConfig.addFilter("head", (array, n) => {
 		if(!Array.isArray(array) || array.length === 0) {
