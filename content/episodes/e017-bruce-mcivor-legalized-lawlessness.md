@@ -1,12 +1,11 @@
 ---
 title: "Episode 17: BRUCE McIVOR: LEGALIZED LAWLESSNESS"
 description: "Peter d'Errico and Steven Newcomb and their guest Bruce McIvor discuss how the legal system—specifically in Canada—is used as a tool of ongoing colonization and domination."
-publishDate: 2026-02-28
+publishDate: 2026-03-09
 image: /img/podcast/cover-art2.webp
-duration: "1:18:00"
-#videoId: mGPhvTVLpL8 
-#redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/4b3c1607-68b5-46cd-aa9a-7c7ffae6866f"
-published: false
+duration: "1:16:43"
+videoId: YMVq3jWj1k 
+redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/6acf9e23-0419-40b0-8187-02cb8da37d43"
 tags: 
   - reconciliation
   - doctrine-of-discovery
@@ -15,7 +14,6 @@ tags:
   - undrip
   - decolonizing-the-mind
 ---
-
 ## Introduction
 
 Historian and lawyer Bruce McIvor joins us in this episode for a deep dive into how Canada’s colonizing legal system continues to attack First Nations with laws and policies dressed up in the
@@ -61,19 +59,14 @@ The participants discuss the "Doctrine of Discovery" as a corrupt foundation for
 
 - Bruce McIvor, Indigenous Rights in One Minute: What You Need to Know to Talk Reconciliation - [https://harbourpublishing.com/collections/bruce-mcivor/products/9780889714885](https://harbourpublishing.com/collections/bruce-mcivor/products/9780889714885)
 
-- Caroline Elkins, Legacy of Violence: A History of the British Empire - [https://www.penguinrandomhouse.com/books/45877/legacy-of-violence-by-caroline-elkins/#](https://www.penguinrandomhouse.com/books/45877/legacy-of-violence-by-caroline-elkins/#)
+- Caroline Elkins, Legacy of Violence: A History of the British Empire - [https://www.penguinrandomhouse.com/books/45877/legacy-of-violence-by-caroline-elkins/](https://www.penguinrandomhouse.com/books/45877/legacy-of-violence-by-caroline-elkins/)
+
+- Elkins, Caroline. "The "Moral Effect" of Legalized Lawlessness: Violence in Britain's Twentieth-Century Empire", *Historical Reflections/Réflexions Historiques* 44, 1 (2018): 78-90, accessed Mar 9, 2026, <https://doi.org/10.3167/hrrh.2018.440109>
 
 - Johnathan Havercroft, Captives of Sovereignty - [https://www.jonathanhavercroft.com/books](https://www.jonathanhavercroft.com/books)
+
+- Steven T. Newcomb's, *Domination Translator Series* - [https://doctrineofdiscovery.org/blog/domination/domination-translator-series-introduction/](https://doctrineofdiscovery.org/blog/domination/domination-translator-series-introduction/)
 
 
 ## Citation
 Steve Newcomb and Peter d’Errico, "Episode 17: BRUCE McIVOR: LEGALIZED LAWLESSNESS," _Domination Chronicles_ (Podcast), 2026-02-28, <https://dominationchronicles.com/e017-bruce-mcivor-legalized-lawlessness>.
-
-## Interlinks
-
-Be sure to visit these other great resources on this and other similar subjects!
-
-- **Mapping the Doctrine of Discovery Podcast S06E05: The Sloan Lecture - The Oneidas, the Best Land, and the Erie Canal** - By Susan Brewer Derrick Pratt hosts Susan Brewer. [https://podcast.doctrineofdiscovery.org/season6/episode-05/](https://podcast.doctrineofdiscovery.org/season6/episode-05/)
-
-- **Journal for Cultural and Religious Theory** - Special Issue on Religion and Bioethics.[https://www.jcrt.org/archives/24.1/](https://www.jcrt.org/archives/24.1/)] 
-
