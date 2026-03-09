@@ -4,7 +4,7 @@ description: "Peter d'Errico and Steven Newcomb and their guest Bruce McIvor dis
 publishDate: 2026-03-09
 image: /img/podcast/cover-art2.webp
 duration: "1:16:43"
-videoId: YMVq3jWj1k 
+videoId: aYMVq3jWj1k 
 redcircle_embed: "https://redcircle.com/embedded-player/sh/2caa5839-9deb-419c-9347-2458812d9406/ep/6acf9e23-0419-40b0-8187-02cb8da37d43"
 tags: 
   - reconciliation
